@@ -31,6 +31,11 @@ class ServerValidationTests(unittest.TestCase):
     def test_checksum_mismatch_rejected(self):
         with self.assertRaises(ValueError): server.validate_annotation("T-1", dict(self.item, pdf_sha256="b" * 64))
 
+    def test_row_id_uses_positive_integer_strings(self):
+        self.assertEqual(server.validate_annotation("T-1", dict(self.item, row_id="3"))["row_id"], "3")
+        with self.assertRaisesRegex(ValueError, "row_id"):
+            server.validate_annotation("T-1", dict(self.item, row_id="row-003"))
+
     def test_atomic_save_reload_and_history(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

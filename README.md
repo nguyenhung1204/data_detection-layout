@@ -19,7 +19,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 - Lọc danh sách theo split/người phụ trách/trạng thái. Mở PDF gốc để chọn và sao chép chữ nếu PDF có lớp văn bản; ảnh trang render để vẽ bbox.
 - Kéo chuột trên trang để tạo vùng. Bấm vùng để di chuyển/chỉnh transcript, field key, layout class, `row_id` và trạng thái. `Delete` xóa vùng; **Hoàn tác xóa** khôi phục vùng gần nhất; `Ctrl+S` lưu.
 - Các vùng PaddleOCR/crop cũ chỉ là gợi ý. Nhãn trường/layout mặc định chưa rà, kể cả khi transcript đã được xác nhận cho bài toán nhận dạng chữ.
-- Với bảng hàng, gán mỗi ô `item_description`, `unit`, `quantity`, `unit_price`, `tax_rate`, `line_total` cùng một `row_id` như `row-001`. Không gán row chỉ theo thứ tự OCR.
+- Với bảng hàng, dùng ID số `1`, `2`, `3`…; mọi ô thuộc cùng mặt hàng dùng chung số ID. ID bắt đầu lại từ `1` ở mỗi hóa đơn. Không gán ID cho vùng không thuộc dòng hàng.
 - Có thể để trường trống khi chưa chắc; trạng thái `verified` chỉ dùng khi đã đối chiếu PDF.
 - **Lịch sử** tìm annotation đã lưu và mở lại đúng trang/vùng. Các thay đổi lưu theo từng hóa đơn trong `data/annotations/by_invoice/`.
 

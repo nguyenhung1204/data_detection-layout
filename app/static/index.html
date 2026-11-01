@@ -29,11 +29,11 @@
       <div id="editorForm" class="editor-form hidden">
         <label>Transcript nhìn thấy trên PDF<textarea id="transcript" rows="3" placeholder="Đối chiếu với PDF trước khi xác nhận"></textarea></label>
         <div class="field-row"><label>Khóa trường<select id="fieldKey"><option value="">Chưa gán</option></select></label><label>Loại vùng<select id="layoutKey"><option value="">Chưa gán</option></select></label></div>
-        <div class="field-row"><label>ID dòng hàng<input id="rowId" placeholder="Ví dụ: row-001"></label><label>Trạng thái<select id="fieldStatus"><option value="needs_review">Chờ rà</option><option value="verified">Đã xác nhận</option><option value="rejected">Loại</option></select></label></div>
+        <div class="field-row"><label>ID dòng hàng<input id="rowId" inputmode="numeric" placeholder="1, 2, 3…"><small class="hint">Các ô cùng một mặt hàng dùng chung số ID.</small></label><label>Trạng thái<select id="fieldStatus"><option value="needs_review">Chờ rà</option><option value="verified">Đã xác nhận</option><option value="rejected">Loại</option></select></label></div>
         <div class="provenance" id="provenance"></div>
         <div class="edit-actions"><button id="deleteBtn" class="btn danger">Xóa vùng</button><button id="applyEdit" class="btn primary">Áp dụng</button></div>
       </div>
-      <div class="regions-head"><div><div class="eyebrow">VÙNG TRÊN TRANG</div><b id="regionsTitle">0 vùng</b></div><button id="addRowBtn" class="btn mini">+ Tạo row ID</button></div>
+      <div class="regions-head"><div><div class="eyebrow">VÙNG TRÊN TRANG</div><b id="regionsTitle">0 vùng</b></div><button id="addRowBtn" class="btn mini">+ Tạo ID dòng hàng</button></div>
       <div id="regionList" class="region-list"></div>
       <div class="editor-foot"><span id="pendingState">Chưa có thay đổi</span><button id="saveBtnBottom" class="btn primary">Lưu nhãn</button></div>
     </aside>

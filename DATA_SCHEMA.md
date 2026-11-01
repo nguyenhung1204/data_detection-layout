@@ -29,7 +29,7 @@ Các khóa lấy từ schema trong `PaddleOCR_Field_Improvement/data/unpacked/40
 - `transcript`: nội dung nhìn thấy trong vùng; không tự sửa dự đoán OCR.
 - `field_key`: một khóa trong nhóm header/item hoặc `null`.
 - `layout_key`: một class như `invoice_header`, `seller_block`, `buyer_block`, `item_table`, `totals`, `signature_stamp`, `other` hoặc `null`.
-- `row_id`: định danh dòng hàng; các cell cùng mặt hàng dùng chung ID.
+- `row_id`: số nguyên dương dạng chuỗi (`"1"`, `"2"`, `"3"`…), đánh số riêng trong từng hóa đơn; mọi vùng thuộc cùng mặt hàng dùng chung ID. Để trống nếu vùng không thuộc dòng hàng.
 - `recognition_status`: trạng thái nhãn nhận dạng chữ cũ; tách biệt với field/layout.
 - `transcript_status`: xác nhận transcript; không kéo theo xác nhận field.
 - `field_status`: `needs_review`, `verified`, hoặc `rejected` cho nhãn field/layout.

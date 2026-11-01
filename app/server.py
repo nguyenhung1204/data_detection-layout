@@ -88,7 +88,10 @@ def validate_annotation(invoice_id: str, item: dict, invoices: dict | None = Non
     item["layout_key"] = layout
     item["field_status"] = status
     item["transcript"] = str(item.get("transcript", ""))
-    item["row_id"] = str(item.get("row_id", ""))
+    row_id = str(item.get("row_id", "")).strip()
+    if row_id and not re.fullmatch(r"[1-9][0-9]*", row_id):
+        raise ValueError("row_id phải là số nguyên dương dạng 1, 2, 3… hoặc để trống.")
+    item["row_id"] = row_id
     return item
 
 
