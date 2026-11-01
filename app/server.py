@@ -159,6 +159,64 @@ def render_page(invoice_id: str, page_number: int, dpi: int = 300) -> tuple[Path
     return output, png_size(output)
 
 
+def extract_region_text(invoice_id: str, page_number: int, bbox_px: list, page_size_px: list) -> str:
+    """Read the embedded PDF text under a user-drawn region; this is only a draft."""
+    inv = INVOICES.get(invoice_id)
+    if not inv:
+        raise ValueError("Không có hóa đơn.")
+    try:
+        page_number = int(page_number)
+        box = [int(value) for value in bbox_px]
+        expected_size = [int(value) for value in page_size_px]
+    except (TypeError, ValueError):
+        raise ValueError("Trang hoặc tọa độ vùng chọn không hợp lệ.")
+    if page_number < 1 or page_number > int(inv.get("page_count") or 0):
+        raise ValueError("Số trang PDF không hợp lệ.")
+    if len(box) != 4 or len(expected_size) != 2:
+        raise ValueError("Thiếu tọa độ vùng hoặc kích thước trang.")
+
+    pdf_path = (PDF_DIR / Path(inv["pdf"]).name).resolve()
+    if pdf_path.parent != PDF_DIR.resolve() or not pdf_path.is_file():
+        raise ValueError("Không tìm thấy PDF trong dữ liệu đã kiểm tra.")
+    if sha256_file(pdf_path) != inv["pdf_sha256"]:
+        raise ValueError("Checksum PDF sai; không trích xuất chữ từ file đã thay đổi.")
+
+    _, actual_size = render_page(invoice_id, page_number)
+    if any(abs(expected_size[i] - actual_size[i]) > 1 for i in range(2)):
+        raise ValueError("Kích thước trang đã đổi; hãy tải lại PDF rồi chọn vùng lần nữa.")
+    x0, y0, x1, y1 = box
+    if x0 < 0 or y0 < 0 or x1 <= x0 or y1 <= y0 or x1 > actual_size[0] or y1 > actual_size[1]:
+        raise ValueError("Vùng chọn nằm ngoài trang PDF hoặc rỗng.")
+
+    try:
+        import pypdfium2 as pdfium
+    except ImportError as exc:
+        raise RuntimeError("Thiếu PyPDFium2; chạy start_labeler.ps1 để cài thư viện.") from exc
+    document = pdfium.PdfDocument(str(pdf_path))
+    try:
+        page = document[page_number - 1]
+        left_bound, bottom_bound, right_bound, top_bound = page.get_bbox()
+        scale_x = (right_bound - left_bound) / actual_size[0]
+        scale_y = (top_bound - bottom_bound) / actual_size[1]
+        text_page = page.get_textpage()
+        try:
+            extracted = text_page.get_text_bounded(
+                left=left_bound + x0 * scale_x,
+                bottom=top_bound - y1 * scale_y,
+                right=left_bound + x1 * scale_x,
+                top=top_bound - y0 * scale_y,
+            )
+        finally:
+            text_page.close()
+    finally:
+        document.close()
+
+    text = re.sub(r"\s+", " ", unicodedata.normalize("NFC", extracted)).strip()
+    if not text:
+        raise ValueError("Không lấy được chữ trong vùng. PDF có thể là ảnh scan hoặc khung chưa trúng lớp chữ; hãy dùng ảnh để chép thủ công.")
+    return text
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "FieldLayoutLabeler/1.0"
 
@@ -265,6 +323,21 @@ class Handler(BaseHTTPRequestHandler):
                 return
             self.send_error(404)
         except (ValueError, FileNotFoundError, json.JSONDecodeError) as exc:
+            self.send_json(400, {"error": str(exc)})
+        except Exception as exc:
+            self.send_json(500, {"error": str(exc)})
+
+    def do_POST(self):
+        match = re.fullmatch(r"/api/pdf-text/([A-Za-z0-9_-]+)", urlparse(self.path).path)
+        if not match:
+            return self.send_json(404, {"error": "Endpoint không tồn tại."})
+        try:
+            body = self.read_json()
+            text = extract_region_text(
+                match.group(1), body.get("page"), body.get("bbox_px"), body.get("page_size_px")
+            )
+            self.send_json(200, {"text": text, "character_count": len(text), "draft_only": True})
+        except (ValueError, KeyError, json.JSONDecodeError) as exc:
             self.send_json(400, {"error": str(exc)})
         except Exception as exc:
             self.send_json(500, {"error": str(exc)})

@@ -59,6 +59,19 @@
   function readRowId(){const value=$('rowId').value.trim();if(!value)return '';if(!/^[0-9]+$/.test(value)||Number(value)<1){toast('ID dòng hàng chỉ dùng số nguyên dương: 1, 2, 3…');return null;}return String(Number(value));}
   function renderSelection(){const item=anns().find(a=>a.annotation_id===state.selected);$('noSelection').classList.toggle('hidden',!!item);$('editorForm').classList.toggle('hidden',!item);$('editTitle').textContent=item?`Sửa vùng · trang ${item.page}`:'Chọn vùng hoặc vẽ vùng mới';if(!item)return;$('transcript').value=item.transcript||'';$('fieldKey').value=item.field_key||'';$('layoutKey').value=item.layout_key||'';$('rowId').value=item.row_id||'';$('fieldStatus').value=item.field_status||'needs_review';$('provenance').textContent=`Nguồn: ${item.source||'người gán'} · OCR: ${item.recognition_status||'—'}${item.confidence!=null?` · confidence ${Number(item.confidence).toFixed(3)}`:''} · vùng ${item.bbox_px.join(', ')}`;}
   $('applyEdit').addEventListener('click',()=>{const a=anns().find(x=>x.annotation_id===state.selected);if(!a)return;const rowId=readRowId();if(rowId===null)return;a.transcript=$('transcript').value;a.field_key=$('fieldKey').value||null;a.layout_key=$('layoutKey').value||null;a.row_id=rowId;a.field_status=$('fieldStatus').value;dirty();renderList();renderSelection();});
+  $('copyPdfTextBtn').addEventListener('click',async()=>{
+    const item=anns().find(x=>x.annotation_id===state.selected);
+    if(!state.invoice||!item)return toast('Hãy vẽ hoặc chọn vùng trên PDF trước.');
+    if(!Array.isArray(item.bbox_px)||!Array.isArray(item.page_size_px))return toast('Vùng chưa có tọa độ hợp lệ. Hãy chọn lại vùng.');
+    if($('transcript').value.trim()&&!confirm('Thay transcript hiện tại bằng chữ trích từ vùng PDF? Nội dung cũ chưa lưu sẽ bị thay thế.'))return;
+    const button=$('copyPdfTextBtn');button.disabled=true;button.textContent='Đang chép chữ PDF…';
+    try{
+      const data=await api(`/api/pdf-text/${encodeURIComponent(state.invoice.invoice_id)}`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({page:item.page,bbox_px:item.bbox_px,page_size_px:item.page_size_px})});
+      $('transcript').value=data.text;item.transcript=data.text;item.field_status='needs_review';dirty();renderList();renderSelection();$('transcript').focus();
+      toast(`Đã điền ${data.character_count} ký tự vào transcript nháp. Hãy kiểm tra rồi lưu nhãn.`);
+    }catch(e){toast(e.message,true);}
+    finally{button.disabled=false;button.textContent='Chép chữ trong vùng PDF vào transcript (bản nháp)';}
+  });
   $('deleteBtn').addEventListener('click',()=>{const i=anns().findIndex(a=>a.annotation_id===state.selected);if(i<0)return;state.undo.push(structuredClone(anns()[i]));anns().splice(i,1);state.selected=null;dirty();renderList();renderSelection();});
   $('undoBtn').addEventListener('click',()=>{const item=state.undo.pop();if(!item)return toast('Không có vùng vừa xóa để hoàn tác.');anns().push(item);state.selected=item.annotation_id;dirty();renderList();renderSelection();});
   $('addRowBtn').addEventListener('click',()=>{const item=anns().find(a=>a.annotation_id===state.selected);if(!item)return toast('Chọn một ô thuộc dòng hàng trước.');const rows=anns().map(a=>Number(a.row_id)||0);item.row_id=String(Math.max(0,...rows)+1);item.layout_key='item_table';dirty();renderList();renderSelection();});
