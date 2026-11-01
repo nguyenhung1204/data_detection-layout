@@ -70,11 +70,13 @@ class AssignmentTests(unittest.TestCase):
         self.assertEqual(list(assigned.values())[:20], ["duy"] * 20)
         self.assertEqual(list(assigned.values())[20:], ["van"] * 20)
 
-    def test_non_40_has_three_assignment_pools_without_overlap(self):
+    def test_non_40_is_split_evenly_between_two_annotators(self):
         rows = [{"document_id": f"WEB_{i:03d}", "source_title": f"source-{i}"} for i in range(1, 11)]
         assigned = assign_invoices(rows)
         self.assertEqual(set(assigned), {row["document_id"] for row in rows})
-        self.assertEqual(set(assigned.values()), {"duy", "van", "owner_review"})
+        self.assertEqual(set(assigned.values()), {"duy", "van"})
+        self.assertEqual(list(assigned.values()).count("duy"), 5)
+        self.assertEqual(list(assigned.values()).count("van"), 5)
 
 
 if __name__ == "__main__":

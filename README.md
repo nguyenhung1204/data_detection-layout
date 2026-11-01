@@ -25,9 +25,9 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 
 ## Dữ liệu và phân công
 
-`data/pdfs/` chứa snapshot các PDF included đã xác minh với manifest nguồn; `data/manifests/` giữ SHA-256, split và phân công. Snapshot hiện có 208 hóa đơn active. Vì vậy phân công hiện tại là Duy 83, Vân 83, chủ repo rà/tổng hợp 42, theo nhóm nhà cung cấp có thể xác định và cân bằng số lượng. Nếu chạy trên đúng bộ 40 hóa đơn tham chiếu, công cụ dùng Duy 1–20, Vân 21–40. Không chỉnh tay manifest để cùng hóa đơn thuộc hai người.
+`data/pdfs/` chứa snapshot các PDF included đã xác minh với manifest nguồn; `data/manifests/` giữ SHA-256, split và phân công. Snapshot hiện có 208 hóa đơn active, chia đều Duy 104 và Vân 104. Chủ repo không cần gán nhãn; chỉ tổng hợp PR/package khi hai bạn hoàn tất. Nếu chạy trên đúng bộ 40 hóa đơn tham chiếu, công cụ dùng Duy 1–20, Vân 21–40. Không chỉnh tay manifest để cùng hóa đơn thuộc hai người.
 
-Mỗi invoice có một JSON riêng để PR dễ review. Người làm clone/fork, chỉ sửa JSON thuộc assignment, rồi gửi PR. Chủ repo chạy merge tool trên gói annotations đã tải về (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
+Mỗi invoice có một JSON riêng để PR dễ review. Người làm clone/fork, chỉ sửa JSON thuộc assignment, rồi gửi PR. Khi cần tổng hợp gói annotations đã tải về, dùng merge tool (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
 
 ## Kiểm tra và export
 

@@ -34,7 +34,7 @@ Các khóa lấy từ schema trong `PaddleOCR_Field_Improvement/data/unpacked/40
 - `transcript_status`: xác nhận transcript; không kéo theo xác nhận field.
 - `field_status`: `needs_review`, `verified`, hoặc `rejected` cho nhãn field/layout.
 - `split`: `train`, `val`, `test` theo invoice.
-- `assigned_to`: `duy`, `van`, `owner_review`.
+- `assigned_to`: `duy` or `van`; every active invoice is assigned to exactly one annotator.
 - `source`, `source_crop_id`, `confidence`, `updated_at`, `history`: provenance và lịch sử.
 
 ## Export

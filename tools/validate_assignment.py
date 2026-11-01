@@ -19,7 +19,7 @@ def validate_assignment(path: Path = ROOT / "data" / "manifests" / "assignment_m
     if expected_ids is not None and set(ids) != expected_ids:
         errors.append(f"Tập ID phân công lệch: thiếu={sorted(expected_ids-set(ids))[:10]}, thừa={sorted(set(ids)-expected_ids)[:10]}")
     counts = Counter(row.get("assigned_to") for row in rows)
-    invalid = set(counts) - {"duy", "van", "owner_review"}
+    invalid = set(counts) - {"duy", "van"}
     if invalid: errors.append(f"Người phụ trách không hợp lệ: {sorted(invalid)}")
     splits: dict[str, set[str]] = {}
     for row in rows:

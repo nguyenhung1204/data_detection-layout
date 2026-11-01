@@ -3,14 +3,16 @@
 ## Duy và Vân
 
 1. Fork repo public hoặc clone repo theo quyền truy cập.
-2. Chạy app theo `README.md`; lọc theo tên mình trong mục **Người phụ trách**. Không chỉnh hóa đơn của người còn lại hoặc `owner_review`.
+2. Chạy app theo `README.md`; lọc theo tên mình trong mục **Người phụ trách**. Không chỉnh hóa đơn của người còn lại.
 3. Đối chiếu từng vùng với PDF. Gán đúng `field_key`, `layout_key`, transcript hiển thị và `row_id` cho các ô cùng một dòng hàng. OCR cũ chỉ là gợi ý.
 4. Lưu thường xuyên; dữ liệu nằm trong `data/annotations/by_invoice/<invoice_id>.json`.
 5. Commit từng nhóm nhỏ vào nhánh riêng, không thay PDF/manifest/schema, rồi mở PR. Trong mô tả ghi invoice ID đã sửa, số vùng xác nhận và câu hỏi còn lại.
 
-Phân công lấy từ `data/manifests/assignment_manifest.csv`; snapshot hiện tại gồm 208 hóa đơn: Duy 83, Vân 83, chủ repo 42. Dùng manifest làm nguồn chuẩn, không tự chia lại.
+Phân công lấy từ `data/manifests/assignment_manifest.csv`; snapshot hiện tại gồm 208 hóa đơn, chia đều Duy 104 và Vân 104. Chủ repo không nhận phần gán nhãn. Dùng manifest làm nguồn chuẩn, không tự chia lại.
 
-## Chủ repo: tổng hợp package
+## Chủ repo: nhận và tổng hợp kết quả
+
+Chủ repo không cần gán nhãn. Chỉ review/merge PR hoặc package sau khi Duy và Vân hoàn tất.
 
 Nếu annotator gửi ZIP các file JSON, giải nén vào thư mục theo cấu trúc `data/annotations/by_invoice/*.json`, rồi chạy:
 

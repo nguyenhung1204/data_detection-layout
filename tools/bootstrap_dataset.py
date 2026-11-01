@@ -16,7 +16,7 @@ from typing import Any
 from app.console import configure_console
 
 ROOT = Path(__file__).resolve().parents[1]
-ASSIGNEES = ("duy", "van", "owner_review")
+ASSIGNEES = ("duy", "van")
 
 
 def sha256_file(path: Path) -> str:
@@ -99,13 +99,15 @@ def candidate_annotation(
 
 
 def provider_key(row: dict[str, str]) -> str:
-    tax = re.sub(r"\D", "", row.get("seller_tax_code", ""))
-    if tax:
+    tax = re.sub(r"\D", "", row.get("seller_tax_code", row.get("tax_code", "")))
+    if len(tax) in {10, 13, 14}:
         return "tax:" + tax
-    value = unicodedata.normalize("NFKD", row.get("source_title", ""))
+    value = unicodedata.normalize("NFKD", row.get("source_title", row.get("supplier", "")))
     value = "".join(ch for ch in value if not unicodedata.combining(ch)).upper()
     value = re.sub(r"[^A-Z0-9]", "", value)
-    return "name:" + (value or row["document_id"])
+    if value in {"PRESENT", "LOCALVIETNAMESEINVOICESOURCE", "UNKNOWN", "NA"} or len(value) < 4:
+        return "invoice:" + row["document_id"]
+    return "name:" + value
 
 
 def assign_invoices(rows: list[dict[str, str]]) -> dict[str, str]:
@@ -115,7 +117,7 @@ def assign_invoices(rows: list[dict[str, str]]) -> dict[str, str]:
     for row in rows:
         groups[provider_key(row)].append(row["document_id"])
     n = len(rows)
-    targets = {"duy": round(n * 0.4), "van": round(n * 0.4), "owner_review": n - round(n * 0.4) * 2}
+    targets = {"duy": round(n / 2), "van": n - round(n / 2)}
     loads = {name: 0 for name in ASSIGNEES}
     assignments: dict[str, str] = {}
     for key, ids in sorted(groups.items(), key=lambda item: (-len(item[1]), item[0])):
