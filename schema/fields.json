@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "field_groups": {
+    "header": {
+      "invoice_number": "Số hóa đơn",
+      "invoice_date": "Ngày hóa đơn",
+      "seller_tax_code": "MST bên bán",
+      "seller_name": "Tên bên bán / nhà cung cấp",
+      "total_amount": "Tổng tiền hóa đơn"
+    },
+    "item": {
+      "item_description": "Tên mặt hàng",
+      "unit": "Đơn vị tính",
+      "quantity": "Số lượng",
+      "unit_price": "Đơn giá",
+      "tax_rate": "Thuế suất",
+      "line_total": "Thành tiền dòng"
+    }
+  },
+  "layout_classes": {
+    "invoice_header": "Phần đầu hóa đơn",
+    "seller_block": "Thông tin bên bán",
+    "buyer_block": "Thông tin bên mua",
+    "item_table": "Bảng hàng hóa",
+    "totals": "Khu vực tổng tiền",
+    "signature_stamp": "Chữ ký / dấu",
+    "other": "Khu vực khác"
+  },
+  "annotation_statuses": ["needs_review", "verified", "rejected"],
+  "coordinate_system": "normalized_xyxy_0_1_top_left"
+}

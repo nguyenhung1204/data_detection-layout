@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-11-01T21:56:08+00:00",
+  "source_manifest": "source_manifest.csv",
+  "source_manifest_sha256": "40e7bcf698373d2daf947f89a64ac7b9dadd3839bbb787cf926420ed18085b57",
+  "source_pdf_directory": "external input path omitted",
+  "recognition_review_data_sha256": "dbe4d29ea2e430d4bd797e8681520533a7fc0bfa3713424274282aec2a3e94f0",
+  "recognition_progress_sha256": "f569fd8fd0c86abc22e01bc7a72d0b3decafa722047b688d00106685b7737b2f",
+  "included_invoice_count": 208,
+  "ocr_candidate_count": 17961,
+  "skipped_candidate_count": 0,
+  "assignments": {
+    "duy": 83,
+    "van": 83,
+    "owner_review": 42
+  },
+  "note": "OCR/text recognition provenance is separate from field/layout review. Imported candidates start with field_status=needs_review unless rejected."
+}

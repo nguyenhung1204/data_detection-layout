@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gán nhãn trường & bố cục hóa đơn</title><link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand"><span class="mark">FL</span><div><b>Invoice Field / Layout Labeler</b><small>Gán vị trí • trường • dòng hàng</small></div></div><div class="top-actions"><span id="saveState" class="save-state">Đang kết nối…</span><button id="historyBtn" class="btn quiet">Lịch sử</button><button id="saveBtn" class="btn primary">Lưu nhãn</button></div></header>
+  <main class="shell">
+    <aside class="panel invoice-panel">
+      <div class="panel-heading"><div><div class="eyebrow">DATASET</div><h1>Hóa đơn <span id="invoiceCount">—</span></h1></div><button id="filtersReset" class="icon-btn" title="Xóa bộ lọc">↺</button></div>
+      <label class="search"><span>⌕</span><input id="search" placeholder="Tìm mã, PDF, MST…"></label>
+      <div class="filters"><label>Split<select id="splitFilter"><option value="">Tất cả</option><option>train</option><option>val</option><option>test</option></select></label><label>Người phụ trách<select id="assigneeFilter"><option value="">Tất cả</option><option value="duy">Duy</option><option value="van">Vân</option><option value="owner_review">Chủ repo</option></select></label></div>
+      <div class="filter-status"><label>Trạng thái<select id="statusFilter"><option value="">Tất cả</option><option value="needs_review">Chờ rà</option><option value="verified">Đã xác nhận</option><option value="rejected">Loại</option></select></label></div>
+      <div id="invoiceList" class="invoice-list"><div class="empty">Đang tải danh sách…</div></div>
+      <div class="panel-foot"><span class="dot"></span>Dữ liệu lưu cục bộ trong repo</div>
+    </aside>
+
+    <section class="panel document-panel">
+      <div class="document-head"><div class="doc-title"><span class="pdf-icon">PDF</span><div><div class="eyebrow">HÓA ĐƠN GỐC</div><h2 id="docName">Chọn hóa đơn</h2><small id="docMeta">PDF được render cục bộ; dữ liệu nguồn không bị sửa.</small></div></div><div class="doc-controls"><button id="prevPage" class="btn mini">‹</button><span id="pageLabel">— / —</span><button id="nextPage" class="btn mini">›</button><span class="divider"></span><button id="zoomOut" class="btn mini">−</button><span id="zoomLabel">100%</span><button id="zoomIn" class="btn mini">+</button><button id="fitBtn" class="btn mini">Vừa khung</button><a id="openPdf" class="btn mini" target="_blank" rel="noopener">PDF gốc</a></div></div>
+      <div class="toolbar"><span class="help">Kéo trên hóa đơn để tạo vùng. Chọn vùng để sửa; nhấn Delete để xóa. OCR cũ chỉ là gợi ý, không tự gán trường.</span><button id="undoBtn" class="btn mini">Hoàn tác xóa</button></div>
+      <div id="pageViewport" class="page-viewport"><div class="page-wrap" id="pageWrap"><img id="pageImage" alt="Trang hóa đơn"><canvas id="overlay"></canvas></div><div id="pagePlaceholder" class="placeholder"><span>PDF</span><b>Chọn hóa đơn để bắt đầu</b><small>Ảnh trang được tạo ngay trên máy bạn.</small></div></div>
+      <div class="document-foot"><span id="pageDimensions">—</span><span id="regionCount">0 vùng</span></div>
+    </section>
+
+    <aside class="panel edit-panel">
+      <div class="editor-heading"><div class="eyebrow">GÁN NHÃN</div><h2 id="editTitle">Chọn vùng hoặc vẽ vùng mới</h2><p>Transcript đã xác nhận cho nhận dạng chữ được giữ riêng với nhãn trường/layout.</p></div>
+      <div id="noSelection" class="no-selection"><span>＋</span><b>Chưa chọn vùng</b><small>Kéo chuột trên trang PDF để tạo bbox, hoặc chọn một vùng OCR gợi ý.</small></div>
+      <div id="editorForm" class="editor-form hidden">
+        <label>Transcript nhìn thấy trên PDF<textarea id="transcript" rows="3" placeholder="Đối chiếu với PDF trước khi xác nhận"></textarea></label>
+        <div class="field-row"><label>Khóa trường<select id="fieldKey"><option value="">Chưa gán</option></select></label><label>Loại vùng<select id="layoutKey"><option value="">Chưa gán</option></select></label></div>
+        <div class="field-row"><label>ID dòng hàng<input id="rowId" placeholder="Ví dụ: row-001"></label><label>Trạng thái<select id="fieldStatus"><option value="needs_review">Chờ rà</option><option value="verified">Đã xác nhận</option><option value="rejected">Loại</option></select></label></div>
+        <div class="provenance" id="provenance"></div>
+        <div class="edit-actions"><button id="deleteBtn" class="btn danger">Xóa vùng</button><button id="applyEdit" class="btn primary">Áp dụng</button></div>
+      </div>
+      <div class="regions-head"><div><div class="eyebrow">VÙNG TRÊN TRANG</div><b id="regionsTitle">0 vùng</b></div><button id="addRowBtn" class="btn mini">+ Tạo row ID</button></div>
+      <div id="regionList" class="region-list"></div>
+      <div class="editor-foot"><span id="pendingState">Chưa có thay đổi</span><button id="saveBtnBottom" class="btn primary">Lưu nhãn</button></div>
+    </aside>
+  </main>
+  <dialog id="historyDialog"><div class="dialog-head"><div><div class="eyebrow">LỊCH SỬ NHÃN</div><h2>Tìm vùng đã sửa</h2></div><button id="closeHistory" class="icon-btn">×</button></div><label class="search"><span>⌕</span><input id="historySearch" placeholder="Tìm hóa đơn, transcript, trường, row ID…"></label><div id="historyResults" class="history-results"></div><p class="note">Chọn kết quả để mở lại hóa đơn, trang và vùng tương ứng.</p></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/static/app.js"></script>
+</body></html>

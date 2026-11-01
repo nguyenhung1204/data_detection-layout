@@ -1,0 +1,1836 @@
+{
+  "schema_version": 1,
+  "invoice_id": "WEB_265",
+  "pdf": "data/pdfs/WEB_265.pdf",
+  "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+  "page_count": 1,
+  "split": "train",
+  "assigned_to": "owner_review",
+  "annotations": [
+    {
+      "annotation_id": "00e8c9cc58316c9ce2b7",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        397,
+        124,
+        1246,
+        206
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1849953,
+        0.0643821,
+        0.5806151,
+        0.1069574
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "HÓA DON GIÁ TRI GIA TĂNG",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "00e8c9cc58316c9ce2b7",
+      "confidence": "0.9826161861419678",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "086694ffe01d002f42e1",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1034,
+        1332,
+        1707,
+        1408
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.4818267,
+        0.6915888,
+        0.7954334,
+        0.7310488
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Tièn thu GTGT: 1.001.850",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "086694ffe01d002f42e1",
+      "confidence": "0.975304901599884",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "0a2915134247cd160eb7",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        445,
+        1782,
+        885,
+        1851
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.2073625,
+        0.9252336,
+        0.4123952,
+        0.9610592
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "(Ký, ghi rõ h tên)",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "0a2915134247cd160eb7",
+      "confidence": "0.9455170035362244",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "0b37ca6cd80d35783b5d",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1314,
+        993,
+        1368,
+        1058
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.612302,
+        0.5155763,
+        0.6374651,
+        0.549325
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "4",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "0b37ca6cd80d35783b5d",
+      "confidence": "0.999985933303833",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "116ad43eed34beac595b",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        160,
+        1142,
+        195,
+        1200
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0745573,
+        0.5929387,
+        0.0908667,
+        0.623053
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "1",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "116ad43eed34beac595b",
+      "confidence": "0.9995788931846619",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "131191a6963bd2ed084c",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        395,
+        994,
+        445,
+        1057
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1840634,
+        0.5160955,
+        0.2073625,
+        0.5488058
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "2",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "131191a6963bd2ed084c",
+      "confidence": "0.9999929666519165",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "151a97bb63a3bc77a801",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        913,
+        1127,
+        1069,
+        1207
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.4254427,
+        0.5851506,
+        0.4981361,
+        0.6266874
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Chic",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "151a97bb63a3bc77a801",
+      "confidence": "0.9995806217193604",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "168afb6e65f44e4fb72f",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1923,
+        993,
+        2089,
+        1059
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.8960857,
+        0.5155763,
+        0.973439,
+        0.5498442
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "6=4x5",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "168afb6e65f44e4fb72f",
+      "confidence": "0.9999704360961914",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "1b4a37db0cba72dade7b",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        587,
+        1843,
+        741,
+        1915
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.2735322,
+        0.9569055,
+        0.3452936,
+        0.9942887
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đãkí",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "1b4a37db0cba72dade7b",
+      "confidence": "0.9560713171958923",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "1ebb1b4ae19e1efbcf08",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        445,
+        1706,
+        884,
+        1790
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.2073625,
+        0.8857736,
+        0.4119292,
+        0.9293873
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Ngưòi mua hàng",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "1ebb1b4ae19e1efbcf08",
+      "confidence": "0.9826744794845581",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "21716f65443c41a9c99d",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1407,
+        1712,
+        1831,
+        1788
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.6556384,
+        0.8888889,
+        0.8532153,
+        0.9283489
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Ngưòi bán hàng",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "21716f65443c41a9c99d",
+      "confidence": "0.9829941987991333",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "2a001bb17f9439144b07",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1524,
+        202,
+        1952,
+        273
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.7101584,
+        0.1048806,
+        0.9095993,
+        0.1417445
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Ký hiu: ND/13P",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "2a001bb17f9439144b07",
+      "confidence": "0.9994856715202332",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "3528dcd6f1cb8c505462",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1162,
+        884,
+        1403,
+        972
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.5414725,
+        0.4589823,
+        0.6537745,
+        0.5046729
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Só lưng",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "3528dcd6f1cb8c505462",
+      "confidence": "0.9389905333518982",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "3588e21de9da9fec978a",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1256,
+        1139,
+        1304,
+        1204
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.5852749,
+        0.5913811,
+        0.6076421,
+        0.6251298
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "3",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "3588e21de9da9fec978a",
+      "confidence": "0.9999945163726807",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "3acb5c682a64e56de218",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1814,
+        891,
+        2082,
+        962
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.8452936,
+        0.4626168,
+        0.9701771,
+        0.4994808
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Thành tin",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "3acb5c682a64e56de218",
+      "confidence": "0.9994500279426575",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "42761a614652280c7a97",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        196,
+        740,
+        1502,
+        809
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0913327,
+        0.384216,
+        0.6999068,
+        0.4200415
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đa chi: 17A Đoàn Th Đim, Q. Đng Đa, Tp. Hà Ni",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "42761a614652280c7a97",
+      "confidence": "0.9559450745582581",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "4566a85184ae92776f31",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        279,
+        1203,
+        588,
+        1269
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1300093,
+        0.6246106,
+        0.2739981,
+        0.6588785
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "DG 2009DP",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "4566a85184ae92776f31",
+      "confidence": "0.9999845027923584",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "4a127cd81e7ce5828bf8",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1812,
+        1136,
+        2084,
+        1204
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.8443616,
+        0.5898235,
+        0.971109,
+        0.6251298
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "10.048.500",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "4a127cd81e7ce5828bf8",
+      "confidence": "0.9999979138374329",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "5311cba472072ab2cde3",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        195,
+        670,
+        1505,
+        744
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0908667,
+        0.3478712,
+        0.7013048,
+        0.3862928
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Ho và tên khách hàng: Công ty Du Lch Mt Tri Vit",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "5311cba472072ab2cde3",
+      "confidence": "0.9938716292381287",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "65b4cdbf25856bf8e671",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        882,
+        896,
+        1093,
+        961
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.4109972,
+        0.4652129,
+        0.5093197,
+        0.4989616
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "ĐV tính",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "65b4cdbf25856bf8e671",
+      "confidence": "0.9508318305015564",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "700806765d0f91df7abe",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        282,
+        1139,
+        748,
+        1201
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1314073,
+        0.5913811,
+        0.3485555,
+        0.6235722
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "AVTECK HD-TVI",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "700806765d0f91df7abe",
+      "confidence": "0.9999180436134338",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "743a6b964adc3b0521ca",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        567,
+        270,
+        1250,
+        343
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.2642125,
+        0.1401869,
+        0.582479,
+        0.1780893
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Ngày 04 tháng 01 năm 2018",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "743a6b964adc3b0521ca",
+      "confidence": "0.9889251589775085",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "784bb50015bf31101fcd",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        201,
+        538,
+        888,
+        604
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0936626,
+        0.2793354,
+        0.4137931,
+        0.3136033
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "S đin thoi: 091 35 35 687",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "784bb50015bf31101fcd",
+      "confidence": "0.9992858171463013",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "79d1af0ff77e88d7d84b",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        847,
+        804,
+        1628,
+        874
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.3946878,
+        0.4174455,
+        0.7586207,
+        0.4537902
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Só tài khoån: 1020100 1093213",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "79d1af0ff77e88d7d84b",
+      "confidence": "0.9671740531921387",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "7fe2dfb1aa7fcc3144f8",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1329,
+        130,
+        1919,
+        202
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.6192917,
+        0.0674974,
+        0.8942218,
+        0.1048806
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Mu sô: 01GTKT3/001",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "7fe2dfb1aa7fcc3144f8",
+      "confidence": "0.9654113054275513",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "8416a39155bab1e00d9b",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        223,
+        1407,
+        1042,
+        1477
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1039143,
+        0.7305296,
+        0.4855545,
+        0.7668744
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Tng cng thanh toán: 11.053.350",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "8416a39155bab1e00d9b",
+      "confidence": "0.9990711808204651",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "8548950173d54b1340cc",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1398,
+        1782,
+        1839,
+        1851
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.6514445,
+        0.9252336,
+        0.8569432,
+        0.9610592
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "(Ký, ghi rõ h tên)",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "8548950173d54b1340cc",
+      "confidence": "0.9872369766235352",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "86c34e987ac79f9572f9",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1025,
+        996,
+        1069,
+        1058
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.4776328,
+        0.517134,
+        0.4981361,
+        0.549325
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "3",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "86c34e987ac79f9572f9",
+      "confidence": "0.9996819496154785",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "89d1f509931542e7ac5f",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        198,
+        810,
+        856,
+        872
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0922647,
+        0.4205607,
+        0.3988816,
+        0.4527518
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Hình thc thanh toán: TM",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "89d1f509931542e7ac5f",
+      "confidence": "0.9779754877090454",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "8d5a394269d63ac04d6d",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        117,
+        5,
+        1123,
+        89
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.05452,
+        0.0025961,
+        0.5232992,
+        0.0462098
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Mu s 3.1: Hóa đon GTGT s 0000030",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "8d5a394269d63ac04d6d",
+      "confidence": "0.9989550709724426",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "92b1dc52276a03b908fa",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        281,
+        897,
+        804,
+        966
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1309413,
+        0.4657321,
+        0.3746505,
+        0.5015576
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Tên hàng hóa dch v",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "92b1dc52276a03b908fa",
+      "confidence": "0.9970066547393799",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "983e4dd1dbd0cf4df8d6",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        115,
+        891,
+        241,
+        963
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0535881,
+        0.4626168,
+        0.112302,
+        0.5
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "STT",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "983e4dd1dbd0cf4df8d6",
+      "confidence": "0.9999926686286926",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "a2179fd6fadde7051512",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        104,
+        1542,
+        635,
+        1616
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0484623,
+        0.8006231,
+        0.2958993,
+        0.8390447
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "lăm mươi nghìn đng.",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "a2179fd6fadde7051512",
+      "confidence": "0.9881076812744141",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "a23ba15e0f0bccd3fee8",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        158,
+        996,
+        197,
+        1056
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0736253,
+        0.517134,
+        0.0917987,
+        0.5482866
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "1",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "a23ba15e0f0bccd3fee8",
+      "confidence": "0.9997937083244324",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "ac0d10b3342d13f24bdc",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        804,
+        203,
+        1162,
+        269
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.3746505,
+        0.1053998,
+        0.5414725,
+        0.1396677
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Liên 3: Ni b",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "ac0d10b3342d13f24bdc",
+      "confidence": "0.9743043780326843",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "af04d846afdb74635c85",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1538,
+        266,
+        1856,
+        336
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.7166822,
+        0.1381101,
+        0.8648649,
+        0.1744548
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Só: 0000030",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "af04d846afdb74635c85",
+      "confidence": "0.9588920474052429",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "b065c4f449e9b7c81189",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        198,
+        598,
+        963,
+        674
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0922647,
+        0.3104881,
+        0.4487418,
+        0.3499481
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Só tài khoån: 001 100 402 7016",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "b065c4f449e9b7c81189",
+      "confidence": "0.9755136370658875",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "b08d197bb9e6abae84fb",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        195,
+        335,
+        1309,
+        410
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0908667,
+        0.1739356,
+        0.609972,
+        0.2128764
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đon v bán hàng: Công ty TNHH Camera 247",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "b08d197bb9e6abae84fb",
+      "confidence": "0.9796634316444397",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "b9dfaf953a69af711d24",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        281,
+        1071,
+        690,
+        1141
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1309413,
+        0.5560748,
+        0.3215284,
+        0.5924195
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Camera quan sát",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "b9dfaf953a69af711d24",
+      "confidence": "0.9999675154685974",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "bc54fe6c9013f312a43f",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        222,
+        1272,
+        889,
+        1344
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1034483,
+        0.6604361,
+        0.4142591,
+        0.6978193
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Cng tin hàng: 10.048.500",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "bc54fe6c9013f312a43f",
+      "confidence": "0.9998847842216492",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "c4a776db8a2f219d9a76",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1502,
+        896,
+        1713,
+        968
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.6999068,
+        0.4652129,
+        0.7982293,
+        0.5025961
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đon giá",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "c4a776db8a2f219d9a76",
+      "confidence": "0.9802175164222717",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "c7b5f8e89864d8b27073",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        219,
+        1464,
+        2107,
+        1556
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1020503,
+        0.7601246,
+        0.9818267,
+        0.807892
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "S tin vit bng ch: Mưi mt triu không trăm năm mưoi ba nghìn ba trăm",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "c7b5f8e89864d8b27073",
+      "confidence": "0.9776071310043335",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "cc591c11e95c281e7ef6",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        197,
+        398,
+        812,
+        470
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0917987,
+        0.2066459,
+        0.3783784,
+        0.2440291
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Mã só thué : 0102196009",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "cc591c11e95c281e7ef6",
+      "confidence": "0.945496678352356",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "d7a8a01c70d0be270905",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1644,
+        994,
+        1693,
+        1059
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.7660764,
+        0.5160955,
+        0.7889096,
+        0.5498442
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "5",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "d7a8a01c70d0be270905",
+      "confidence": "0.999990701675415",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "e4033ff5fec64d54fcc7",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1542,
+        1845,
+        1697,
+        1915
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.7185461,
+        0.9579439,
+        0.7907735,
+        0.9942887
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đã kí",
+      "transcript_status": "verified",
+      "recognition_status": "verified",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "e4033ff5fec64d54fcc7",
+      "confidence": "0.9071645736694336",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "ea2d6f59a9a5541cc5c0",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        207,
+        467,
+        1611,
+        546
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.0964585,
+        0.2424714,
+        0.750699,
+        0.2834891
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Đa chi: Vn Kip, qun Hai Bà Trưng, thành ph Hà Ni.",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "ea2d6f59a9a5541cc5c0",
+      "confidence": "0.969935953617096",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "f9c220f059fc7b7f2e18",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        1484,
+        1137,
+        1733,
+        1204
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.6915191,
+        0.5903427,
+        0.8075489,
+        0.6251298
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "3.349.500",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "f9c220f059fc7b7f2e18",
+      "confidence": "0.9999982118606567",
+      "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "fe5c684cd5207a33baeb",
+      "invoice_id": "WEB_265",
+      "pdf": "WEB_265.pdf",
+      "pdf_sha256": "9503f3755ca0042c7e844bcca305006a221e87fb8a3ef0e92f7391b7c8a2cf43",
+      "page": 1,
+      "bbox_px": [
+        224,
+        1339,
+        905,
+        1405
+      ],
+      "page_size_px": [
+        2146,
+        1926
+      ],
+      "bbox_norm": [
+        0.1043802,
+        0.6952233,
+        0.4217148,
+        0.7294912
+      ],
+      "annotation_kind": "text_region",
+      "field_key": null,
+      "layout_key": null,
+      "row_id": "",
+      "transcript": "Thu sut thu GTGT : 10%",
+      "transcript_status": "needs_review",
+      "recognition_status": "needs_review",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "owner_review",
+      "source": "existing_ocr_review_candidate",
+      "source_crop_id": "fe5c684cd5207a33baeb",
+      "confidence": "0.9965844750404358",
+      "updated_at": "",
+      "history": []
+    }
+  ],
+  "updated_at": ""
+}
