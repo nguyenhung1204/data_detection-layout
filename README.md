@@ -22,12 +22,13 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 - Với bảng hàng, dùng ID số `1`, `2`, `3`…; mọi ô thuộc cùng mặt hàng dùng chung số ID. ID bắt đầu lại từ `1` ở mỗi hóa đơn. Không gán ID cho vùng không thuộc dòng hàng.
 - Có thể để trường trống khi chưa chắc; trạng thái `verified` chỉ dùng khi đã đối chiếu PDF.
 - **Lịch sử** tìm annotation đã lưu và mở lại đúng trang/vùng. Các thay đổi lưu theo từng hóa đơn trong `data/annotations/by_invoice/`.
+- Khi hoàn tất phần được giao, chọn **Duy** hoặc **Vân** ở bộ lọc **Người phụ trách**, rồi bấm **Tải ZIP phần của tôi**. ZIP chỉ có annotation JSON và manifest của người đó, không lặp lại PDF; gửi nguyên ZIP cho bạn tổng hợp.
 
 ## Dữ liệu và phân công
 
 `data/pdfs/` chứa snapshot các PDF included đã xác minh với manifest nguồn; `data/manifests/` giữ SHA-256, split và phân công. Snapshot hiện có 208 hóa đơn active, chia đều Duy 104 và Vân 104. Chủ repo không cần gán nhãn; chỉ tổng hợp PR/package khi hai bạn hoàn tất. Nếu chạy trên đúng bộ 40 hóa đơn tham chiếu, công cụ dùng Duy 1–20, Vân 21–40. Không chỉnh tay manifest để cùng hóa đơn thuộc hai người.
 
-Mỗi invoice có một JSON riêng để PR dễ review. Người làm clone/fork, chỉ sửa JSON thuộc assignment, rồi gửi PR. Khi cần tổng hợp gói annotations đã tải về, dùng merge tool (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
+Mỗi invoice có một JSON riêng. Người làm có thể gửi ZIP trực tiếp từ app; chủ repo chạy merge tool lần lượt cho từng ZIP (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
 
 ## Kiểm tra và export
 

@@ -4,6 +4,8 @@ import argparse
 import csv
 import json
 import shutil
+import tempfile
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,6 +17,26 @@ CORE = ("bbox_px", "bbox_norm", "page", "field_key", "layout_key", "row_id", "tr
 
 
 def merge_package(package: Path, root: Path = ROOT) -> dict:
+    if package.is_file() and package.suffix.casefold() == ".zip":
+        with tempfile.TemporaryDirectory(prefix="invoice-label-package-") as temp_dir:
+            extracted = Path(temp_dir)
+            total_size = 0
+            with zipfile.ZipFile(package) as archive:
+                for member in archive.infolist():
+                    name = Path(member.filename)
+                    if name.is_absolute() or ".." in name.parts or member.is_dir():
+                        raise ValueError(f"Đường dẫn không an toàn trong ZIP: {member.filename}")
+                    allowed = len(name.parts) == 2 and name.parts[0] == "by_invoice" and name.suffix == ".json"
+                    allowed = allowed or member.filename in {"assignment_manifest.csv", "package_manifest.json", "README.txt"}
+                    if not allowed:
+                        raise ValueError(f"File không được phép trong ZIP: {member.filename}")
+                    total_size += member.file_size
+                    if member.file_size > 50 * 1024 * 1024 or total_size > 500 * 1024 * 1024:
+                        raise ValueError("ZIP nhãn vượt giới hạn kích thước giải nén.")
+                    destination = extracted / name
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    destination.write_bytes(archive.read(member))
+            return merge_package(extracted, root)
     source = package / "data" / "annotations" / "by_invoice"
     if not source.is_dir():
         source = package / "by_invoice"

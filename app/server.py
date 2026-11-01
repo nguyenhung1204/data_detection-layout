@@ -15,6 +15,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 from app.config import ANNOTATION_DIR, CACHE, DATA, MANIFEST, PDF_DIR, ROOT, SCHEMA
 from app.console import configure_console
 from tools.bootstrap_dataset import png_size, sha256_file
+from tools.export_assignment import export_assignment
 
 MAX_BODY = 12 * 1024 * 1024
 FIELDS = {key for group in SCHEMA["field_groups"].values() for key in group}
@@ -185,6 +186,17 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if path == "/api/schema":
                 return self.send_json(200, SCHEMA)
+            if path == "/api/export-assignment":
+                assignee = parse_qs(parsed.query).get("assignee", [""])[0]
+                body = export_assignment(ROOT, assignee)
+                self.send_response(200)
+                self.send_header("Content-Type", "application/zip")
+                self.send_header("Content-Length", str(len(body)))
+                self.send_header("Content-Disposition", f'attachment; filename="annotations_{assignee.casefold()}.zip"')
+                self.send_header("Cache-Control", "no-store")
+                self.end_headers()
+                self.wfile.write(body)
+                return
             if path == "/api/invoices":
                 query = parse_qs(parsed.query)
                 q = query.get("q", [""])[0].casefold()

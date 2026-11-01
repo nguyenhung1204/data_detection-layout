@@ -6,18 +6,19 @@
 2. Chạy app theo `README.md`; lọc theo tên mình trong mục **Người phụ trách**. Không chỉnh hóa đơn của người còn lại.
 3. Đối chiếu từng vùng với PDF. Gán đúng `field_key`, `layout_key`, transcript hiển thị và `row_id` cho các ô cùng một dòng hàng. OCR cũ chỉ là gợi ý.
 4. Lưu thường xuyên; dữ liệu nằm trong `data/annotations/by_invoice/<invoice_id>.json`.
-5. Commit từng nhóm nhỏ vào nhánh riêng, không thay PDF/manifest/schema, rồi mở PR. Trong mô tả ghi invoice ID đã sửa, số vùng xác nhận và câu hỏi còn lại.
+5. Khi làm xong phần được giao, chọn đúng tên mình ở bộ lọc **Người phụ trách**, bấm **Tải ZIP phần của tôi** trên thanh đầu trang rồi gửi nguyên file ZIP cho chủ repo. Lưu nhãn trước khi xuất; ZIP chỉ chứa JSON nhãn và manifest, không chứa PDF.
 
 Phân công lấy từ `data/manifests/assignment_manifest.csv`; snapshot hiện tại gồm 208 hóa đơn, chia đều Duy 104 và Vân 104. Chủ repo không nhận phần gán nhãn. Dùng manifest làm nguồn chuẩn, không tự chia lại.
 
 ## Chủ repo: nhận và tổng hợp kết quả
 
-Chủ repo không cần gán nhãn. Chỉ review/merge PR hoặc package sau khi Duy và Vân hoàn tất.
+Chủ repo không cần gán nhãn. Nhận ZIP của Duy và Vân, lưu hai file riêng rồi tổng hợp bằng merge tool.
 
-Nếu annotator gửi ZIP các file JSON, giải nén vào thư mục theo cấu trúc `data/annotations/by_invoice/*.json`, rồi chạy:
+Merge tool nhận trực tiếp ZIP do nút xuất tạo ra; không cần giải nén thủ công:
 
 ```powershell
-python -m tools.merge_annotations C:\path\to\annotator-package
+python -m tools.merge_annotations C:\path\to\Nhan_duy_annotations.zip
+python -m tools.merge_annotations C:\path\to\Nhan_van_annotations.zip
 ```
 
 Merge kiểm checksum, invoice ID, schema fields và tọa độ. Nếu annotation cùng ID đã bị sửa ở cả hai bên, công cụ báo conflict và giữ nguyên file hiện tại. Backup và `data/manifests/last_merge_report.json` được tạo trước/sau lượt merge. Trường hợp annotation bị lược khỏi package không được hiểu là lệnh xóa.

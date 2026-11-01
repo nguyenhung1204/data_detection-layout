@@ -6,6 +6,7 @@ import zipfile
 from pathlib import Path
 
 from tools.export_dataset import export_dataset
+from tools.export_assignment import export_assignment
 from tools.merge_annotations import merge_package
 from tools.validate_dataset import validate
 
@@ -57,6 +58,29 @@ class MergeExportTests(unittest.TestCase):
                 self.assertIn("verified.jsonl",archive.namelist());self.assertIn("review.jsonl",archive.namelist())
                 records=[json.loads(line) for line in archive.read("verified.jsonl").decode().splitlines()]
                 self.assertEqual(len(records),1);self.assertEqual(records[0]["field_status"],"verified")
+
+    def test_assignment_zip_contains_only_assigned_annotations_and_no_pdfs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);_,_,_=self.make_repo(root)
+            package_bytes=export_assignment(root,"duy")
+            package=Path(tmp)/"duy.zip";package.write_bytes(package_bytes)
+            with zipfile.ZipFile(package) as archive:
+                names=set(archive.namelist())
+                self.assertEqual(names,{"by_invoice/X-1.json","assignment_manifest.csv","package_manifest.json","README.txt"})
+                self.assertFalse(any(name.lower().endswith(".pdf") for name in names))
+                metadata=json.loads(archive.read("package_manifest.json"))
+                self.assertEqual(metadata["assigned_to"],"duy")
+                self.assertEqual(metadata["invoice_count"],1)
+            with self.assertRaisesRegex(ValueError,"Duy hoặc Vân"):
+                export_assignment(root,"all")
+
+    def test_merge_accepts_assignment_zip_directly(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/"repo";_,_,_=self.make_repo(root)
+            package=Path(tmp)/"duy.zip";package.write_bytes(export_assignment(root,"duy"))
+            report=merge_package(package,root)
+            self.assertFalse(report["conflicts"])
+            self.assertFalse(report["unknown_invoices"])
 
 
 if __name__ == "__main__":
