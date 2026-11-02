@@ -18,14 +18,14 @@
 
     <section class="panel document-panel">
       <div class="document-head"><div class="doc-title"><span class="pdf-icon">PDF</span><div><div class="eyebrow">HÓA ĐƠN GỐC</div><h2 id="docName">Chọn hóa đơn</h2><small id="docMeta">PDF được render cục bộ; dữ liệu nguồn không bị sửa.</small></div></div><div class="doc-controls"><button id="prevPage" class="btn mini">‹</button><span id="pageLabel">— / —</span><button id="nextPage" class="btn mini">›</button><span class="divider"></span><button id="zoomOut" class="btn mini">−</button><span id="zoomLabel">100%</span><button id="zoomIn" class="btn mini">+</button><button id="fitBtn" class="btn mini">Vừa khung</button><a id="openPdf" class="btn mini" target="_blank" rel="noopener">PDF gốc</a></div></div>
-      <div class="toolbar"><span class="help">Kéo trên hóa đơn để tạo vùng. Chọn vùng để sửa; nhấn Delete để xóa. OCR cũ chỉ là gợi ý, không tự gán trường.</span><button id="undoBtn" class="btn mini">Hoàn tác xóa</button></div>
+      <div class="toolbar"><div class="tool-group"><button id="drawModeBtn" class="btn mini" type="button" aria-pressed="false">＋ Vẽ vùng mới</button><span id="drawModeHelp" class="help">Kéo trên PDF để tạo vùng; các khung OCR gợi ý đang được ẩn.</span></div><button id="undoBtn" class="btn mini" type="button">Hoàn tác xóa</button></div>
       <div id="pageViewport" class="page-viewport"><div class="page-wrap" id="pageWrap"><img id="pageImage" alt="Trang hóa đơn"><canvas id="overlay"></canvas></div><div id="pagePlaceholder" class="placeholder"><span>PDF</span><b>Chọn hóa đơn để bắt đầu</b><small>Ảnh trang được tạo ngay trên máy bạn.</small></div></div>
       <div class="document-foot"><span id="pageDimensions">—</span><span id="regionCount">0 vùng</span></div>
     </section>
 
     <aside class="panel edit-panel">
       <div class="editor-heading"><div class="eyebrow">GÁN NHÃN</div><h2 id="editTitle">Chọn vùng hoặc vẽ vùng mới</h2><p>Transcript đã xác nhận cho nhận dạng chữ được giữ riêng với nhãn trường/layout.</p></div>
-      <div id="noSelection" class="no-selection"><span>＋</span><b>Chưa chọn vùng</b><small>Kéo chuột trên trang PDF để tạo bbox, hoặc chọn một vùng OCR gợi ý.</small></div>
+      <div id="noSelection" class="no-selection"><span>＋</span><b>Chưa chọn vùng</b><small>Kéo chuột trên trang PDF để tự tạo vùng cần gán nhãn.</small></div>
       <div id="editorForm" class="editor-form hidden">
         <label>Transcript nhìn thấy trên PDF<textarea id="transcript" rows="3" placeholder="Đối chiếu với PDF trước khi xác nhận"></textarea></label>
         <button id="copyPdfTextBtn" class="btn mini pdf-copy-btn" type="button">Chép chữ trong vùng PDF vào transcript (bản nháp)</button>
