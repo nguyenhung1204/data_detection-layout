@@ -7,6 +7,7 @@ import re
 import sys
 import tempfile
 import time
+import unicodedata
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path

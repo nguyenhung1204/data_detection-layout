@@ -6,14 +6,16 @@
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const anns = () => state.doc?.annotations || [];
   const visibleAnns = () => anns().filter(a => a.source !== 'existing_ocr_review_candidate');
+  const itemFieldKeys = new Set(['item_description','unit','quantity','unit_price','tax_rate','line_total']);
+  const inferredLayout = {invoice_number:'invoice_header',invoice_date:'invoice_header',seller_tax_code:'seller_block',seller_name:'seller_block',total_amount:'totals',item_description:'item_table',unit:'item_table',quantity:'item_table',unit_price:'item_table',tax_rate:'item_table',line_total:'item_table'};
   const toast = (message) => { const el=$('toast'); el.textContent=message; el.classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>el.classList.remove('show'),2600); };
   const dirty = () => { state.dirty=true; $('pendingState').textContent='Có thay đổi chưa lưu'; $('saveState').textContent='Chưa lưu'; };
   async function api(url, options={}) { const response=await fetch(url,options); const data=response.headers.get('content-type')?.includes('json') ? await response.json() : response; if(!response.ok) throw new Error(data.error || `Lỗi HTTP ${response.status}`); return data; }
   async function init(){
     try {
       state.schema=await api('/api/schema');
-      Object.entries(state.schema.field_groups).forEach(([group, fields])=>Object.entries(fields).forEach(([key,label])=>$('fieldKey').insertAdjacentHTML('beforeend',`<option value="${esc(key)}">${esc(label)} · ${esc(key)}</option>`)));
-      Object.entries(state.schema.layout_classes).forEach(([key,label])=>$('layoutKey').insertAdjacentHTML('beforeend',`<option value="${esc(key)}">${esc(label)}</option>`));
+      const groupLabels={header:'Thông tin đầu hóa đơn',item:'Các trường của dòng hàng'};
+      Object.entries(state.schema.field_groups).forEach(([group, fields])=>{const optgroup=document.createElement('optgroup');optgroup.label=groupLabels[group]||group;Object.entries(fields).forEach(([key,label])=>{const option=document.createElement('option');option.value=key;option.textContent=`${label} · ${key}`;optgroup.append(option);});$('fieldKey').append(optgroup);});
       await loadInvoices(); $('saveState').textContent='Sẵn sàng gán nhãn';
     } catch(e){ $('saveState').textContent='Lỗi kết nối'; toast(e.message); }
   }
@@ -58,8 +60,11 @@
   function renderList(){draw();renderRegions();}
   function selectAnnotation(id){state.selected=id;renderList();renderSelection();}
   function readRowId(){const value=$('rowId').value.trim();if(!value)return '';if(!/^[0-9]+$/.test(value)||Number(value)<1){toast('ID dòng hàng chỉ dùng số nguyên dương: 1, 2, 3…');return null;}return String(Number(value));}
-  function renderSelection(){const item=anns().find(a=>a.annotation_id===state.selected);$('noSelection').classList.toggle('hidden',!!item);$('editorForm').classList.toggle('hidden',!item);$('editTitle').textContent=item?`Sửa vùng · trang ${item.page}`:'Chọn vùng hoặc vẽ vùng mới';if(!item)return;$('transcript').value=item.transcript||'';$('fieldKey').value=item.field_key||'';$('layoutKey').value=item.layout_key||'';$('rowId').value=item.row_id||'';$('fieldStatus').value=item.field_status||'needs_review';$('provenance').textContent=`Nguồn: ${item.source||'người gán'} · OCR: ${item.recognition_status||'—'}${item.confidence!=null?` · confidence ${Number(item.confidence).toFixed(3)}`:''} · vùng ${item.bbox_px.join(', ')}`;}
-  $('applyEdit').addEventListener('click',()=>{const a=anns().find(x=>x.annotation_id===state.selected);if(!a)return;const rowId=readRowId();if(rowId===null)return;a.transcript=$('transcript').value;a.field_key=$('fieldKey').value||null;a.layout_key=$('layoutKey').value||null;a.row_id=rowId;a.field_status=$('fieldStatus').value;dirty();renderList();renderSelection();});
+  function updateFieldGuidance(){const key=$('fieldKey').value,isItem=itemFieldKeys.has(key);$('rowIdGroup').classList.toggle('hidden',!isItem);$('addRowBtn').classList.toggle('hidden',!isItem);$('fieldHelp').textContent=isItem?'Chỉ khoanh giá trị của ô này. Mọi ô thuộc cùng một mặt hàng phải dùng chung ID dòng hàng.':'Chỉ khoanh giá trị cần lấy, không khoanh nhãn như “Số hóa đơn:” hoặc tiêu đề cột. Loại vùng bố cục sẽ được gán tự động.';}
+  function renderSelection(){const item=anns().find(a=>a.annotation_id===state.selected);$('noSelection').classList.toggle('hidden',!!item);$('editorForm').classList.toggle('hidden',!item);$('editTitle').textContent=item?`Sửa vùng · trang ${item.page}`:'Chọn vùng hoặc vẽ vùng mới';if(!item){$('transcript').value='';$('fieldKey').value='';$('rowId').value='';$('fieldStatus').value='needs_review';$('provenance').textContent='';updateFieldGuidance();return;}$('transcript').value=item.transcript||'';$('fieldKey').value=item.field_key||'';$('rowId').value=item.row_id||'';$('fieldStatus').value=item.field_status||'needs_review';$('provenance').textContent=`Nguồn: ${item.source||'người gán'} · OCR: ${item.recognition_status||'—'}${item.confidence!=null?` · confidence ${Number(item.confidence).toFixed(3)}`:''} · vùng ${item.bbox_px.join(', ')}`;updateFieldGuidance();}
+  function applyEditorValues(item){const fieldKey=$('fieldKey').value||null,status=$('fieldStatus').value,rowId=itemFieldKeys.has(fieldKey)?readRowId():'';if(rowId===null)return false;if(status==='verified'&&!fieldKey){toast('Hãy chọn đúng trường trước khi xác nhận vùng.');return false;}if(status==='verified'&&itemFieldKeys.has(fieldKey)&&!rowId){toast('Vùng thuộc dòng hàng: nhập ID để liên kết với các ô cùng sản phẩm trước khi xác nhận.');return false;}item.transcript=$('transcript').value;item.field_key=fieldKey;item.layout_key=inferredLayout[fieldKey]||(!fieldKey?item.layout_key||null:null);item.row_id=rowId;item.field_status=status;return true;}
+  $('fieldKey').addEventListener('change',updateFieldGuidance);
+  $('applyEdit').addEventListener('click',()=>{const a=anns().find(x=>x.annotation_id===state.selected);if(!a||!applyEditorValues(a))return;dirty();renderList();renderSelection();});
   $('copyPdfTextBtn').addEventListener('click',async()=>{
     const item=anns().find(x=>x.annotation_id===state.selected);
     if(!state.invoice||!item)return toast('Hãy vẽ hoặc chọn vùng trên PDF trước.');
@@ -75,7 +80,7 @@
   });
   $('deleteBtn').addEventListener('click',()=>{const i=anns().findIndex(a=>a.annotation_id===state.selected);if(i<0)return;state.undo.push(structuredClone(anns()[i]));anns().splice(i,1);state.selected=null;dirty();renderList();renderSelection();});
   $('undoBtn').addEventListener('click',()=>{const item=state.undo.pop();if(!item)return toast('Không có vùng vừa xóa để hoàn tác.');anns().push(item);state.selected=item.annotation_id;dirty();renderList();renderSelection();});
-  $('addRowBtn').addEventListener('click',()=>{const item=anns().find(a=>a.annotation_id===state.selected);if(!item)return toast('Chọn một ô thuộc dòng hàng trước.');const rows=anns().map(a=>Number(a.row_id)||0);item.row_id=String(Math.max(0,...rows)+1);item.layout_key='item_table';dirty();renderList();renderSelection();});
+  $('addRowBtn').addEventListener('click',()=>{if(!state.selected)return toast('Chọn vùng thuộc một dòng hàng trước.');if(!itemFieldKeys.has($('fieldKey').value))return toast('Chọn một trường dòng hàng trước.');const rows=anns().filter(a=>itemFieldKeys.has(a.field_key)).map(a=>Number(a.row_id)||0);$('rowId').value=String(Math.max(0,...rows)+1);toast('Đã điền ID mới. Các ô cùng mặt hàng cần dùng lại đúng ID này.');});
   $('saveBtn').addEventListener('click',save);$('saveBtnBottom').addEventListener('click',save);
   $('exportAssignmentBtn').addEventListener('click',async()=>{
     const assignee=$('assigneeFilter').value;
@@ -83,7 +88,7 @@
     if(state.dirty)return toast('Hãy lưu nhãn đang sửa trước khi xuất ZIP để không thiếu dữ liệu.');
     try{const response=await fetch(`/api/export-assignment?assignee=${encodeURIComponent(assignee)}`);if(!response.ok){const error=await response.json();throw new Error(error.error||'Không tạo được ZIP.');}const blob=await response.blob(),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=`Nhan_${assignee}_annotations.zip`;link.click();URL.revokeObjectURL(url);toast('Đã tải ZIP nhãn được phân công. Gửi nguyên file cho chủ repo để tổng hợp.');}catch(e){toast(e.message);}
   });
-  async function save(){if(!state.invoice||!state.doc)return toast('Chọn hóa đơn trước.');if(state.selected){const a=anns().find(x=>x.annotation_id===state.selected);if(a){const rowId=readRowId();if(rowId===null)return;a.transcript=$('transcript').value;a.field_key=$('fieldKey').value||null;a.layout_key=$('layoutKey').value||null;a.row_id=rowId;a.field_status=$('fieldStatus').value;}}
+  async function save(){if(!state.invoice||!state.doc)return toast('Chọn hóa đơn trước.');if(state.selected){const a=anns().find(x=>x.annotation_id===state.selected);if(a&&!applyEditorValues(a))return;}
     $('saveState').textContent='Đang lưu…';try{const out=await api(`/api/invoices/${encodeURIComponent(state.invoice.invoice_id)}`,{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(state.doc)});state.doc=await (await api(`/api/invoices/${encodeURIComponent(state.invoice.invoice_id)}`)).annotation;state.dirty=false;$('saveState').textContent='Đã lưu';$('pendingState').textContent=`Đã lưu ${new Date(out.updated_at).toLocaleTimeString('vi-VN')}`;renderList();renderSelection();await loadInvoices();toast('Đã lưu nhãn vào file annotation của hóa đơn.');}catch(e){$('saveState').textContent='Lỗi lưu';toast(e.message);}}
   function eventPoint(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width*canvas.width,y:(e.clientY-r.top)/r.height*canvas.height};}
   function hit(p){return visibleAnns().filter(a=>Number(a.page)===state.page).reverse().find(a=>{const r=rectNorm(a);return p.x>=r.x&&p.x<=r.x+r.w&&p.y>=r.y&&p.y<=r.y+r.h;});}

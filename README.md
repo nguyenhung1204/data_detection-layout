@@ -17,8 +17,9 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 ## Rà và gán nhãn
 
 - Lọc danh sách theo split/người phụ trách/trạng thái. Kéo chuột trên ảnh PDF để tự tạo vùng crop; chọn vùng để chỉnh lại kích thước hoặc di chuyển.
+- Chỉ gán 11 trường mục tiêu trong bộ chọn **Trường cần nhận diện**. Khung nên ôm sát giá trị, không lấy nhãn mô tả hoặc tiêu đề cột; loại vùng bố cục được suy ra tự động từ trường.
 - Để đỡ gõ transcript, sau khi vẽ/chọn vùng bấm **Chép chữ trong vùng PDF vào transcript (bản nháp)**. App lấy lớp chữ PDF nằm trong vùng rồi điền vào transcript; nó không tự xác nhận nhãn. Đọc lại trên PDF trước khi đổi trạng thái sang `verified`. Nếu PDF là ảnh scan hoặc vùng không có lớp chữ, app báo để bạn chép từ PDF gốc hoặc nhập theo ảnh.
-- Bấm **Áp dụng** để cập nhật transcript, field key, layout class, `row_id` và trạng thái; `Delete` xóa vùng; **Hoàn tác xóa** khôi phục vùng gần nhất; `Ctrl+S` lưu. Nút lấy chữ PDF cũng chỉ tạo thay đổi nháp; cần bấm **Lưu nhãn** để lưu vào annotation.
+- Bấm **Áp dụng** để cập nhật transcript, trường, loại vùng được suy ra tự động, `row_id` và trạng thái; `Delete` xóa vùng; **Hoàn tác xóa** khôi phục vùng gần nhất; `Ctrl+S` lưu. Nút lấy chữ PDF cũng chỉ tạo thay đổi nháp; cần bấm **Lưu nhãn** để lưu vào annotation.
 - Các vùng PaddleOCR/crop cũ chỉ là gợi ý. Nhãn trường/layout mặc định chưa rà, kể cả khi transcript đã được xác nhận cho bài toán nhận dạng chữ.
 - Với bảng hàng, dùng ID số `1`, `2`, `3`…; mọi ô thuộc cùng mặt hàng dùng chung số ID. ID bắt đầu lại từ `1` ở mỗi hóa đơn. Không gán ID cho vùng không thuộc dòng hàng.
 - Có thể để trường trống khi chưa chắc; trạng thái `verified` chỉ dùng khi đã đối chiếu PDF.
