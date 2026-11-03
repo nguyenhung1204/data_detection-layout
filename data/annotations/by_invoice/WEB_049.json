@@ -8,42 +8,389 @@
   "assigned_to": "duy",
   "annotations": [
     {
-      "annotation_id": "region-9909b0c0-7234-4d45-afce-1683902c74f9",
+      "annotation_id": "auto-41a959d2d7793d724959c4c",
       "invoice_id": "WEB_049",
       "pdf": "WEB_049.pdf",
       "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
       "page": 1,
       "bbox_px": [
-        96,
-        52,
-        1190,
-        135
+        1866,
+        1068,
+        1978,
+        1115
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.038562091503267976,
-        0.014798713693348956,
-        0.4798692890242034,
-        0.03847666124796855
+        0.7524194,
+        0.3047076,
+        0.7975806,
+        0.318117
       ],
       "annotation_kind": "text_region",
-      "field_key": "seller_name",
-      "layout_key": "seller_block",
-      "row_id": "",
-      "transcript": "CN CÔNG TY CP THƯƠNG MẠI BÁCH HÓA XANH - CH",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "320.909",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
       "split": "test",
       "assigned_to": "duy",
-      "source": "manual",
+      "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
       "updated_at": "2026-11-02T16:48:21+00:00",
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1866,
+              1068,
+              1978,
+              1115
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "320.909",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-84a4779382e7ced091636d0",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        239,
+        298,
+        450,
+        337
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.096371,
+        0.0850214,
+        0.1814516,
+        0.0961484
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "0310471746-353",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              239,
+              298,
+              450,
+              337
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0310471746-353",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-8a22cdc1ac0adce085b8b6a",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        2117,
+        190,
+        2284,
+        239
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.853629,
+        0.0542083,
+        0.9209677,
+        0.0681883
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "9861547",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2117,
+              190,
+              2284,
+              239
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "9861547",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-93a31570956bb4342e52b06",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        1363,
+        1070,
+        1447,
+        1123
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.5495968,
+        0.3052782,
+        0.5833987167458129,
+        0.3203921669854734
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "10 %",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1363,
+              1070,
+              1404,
+              1116
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "10",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-ae813fdc01c999f910112b3",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        2052,
+        249,
+        2282,
+        294
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.8274194,
+        0.0710414,
+        0.9201613,
+        0.0838802
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày: 03/06/2025",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2052,
+              249,
+              2282,
+              294
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày: 03/06/2025",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-c778c95be9221e130dd9310",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        226,
+        1066,
+        817,
+        1128
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.091129,
+        0.3041369,
+        0.3292810377731822,
+        0.32187201577376323
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "BIA HEINEKEN SILVER LON 250ML TH24",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              226,
+              1066,
+              1251,
+              1122
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "BIA HEINEKEN SILVER LON 250ML TH24 Thùng",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-f2b6a34cbd2598e21c8b0d1",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        2285,
+        1068,
+        2399,
+        1115
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.921371,
+        0.3047076,
+        0.9673387,
+        0.318117
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "320.909",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:48:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2285,
+              1068,
+              2399,
+              1115
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "320.909",
+            "field_status": "needs_review"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-65dabcff-af8c-431f-a62c-6b14f650597e",
@@ -148,6 +495,44 @@
       "layout_key": "totals",
       "row_id": "",
       "transcript": "353.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:48:21+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-9909b0c0-7234-4d45-afce-1683902c74f9",
+      "invoice_id": "WEB_049",
+      "pdf": "WEB_049.pdf",
+      "pdf_sha256": "919f0864b747b5002255399776826cec926637119d4d454d238287ad487e1810",
+      "page": 1,
+      "bbox_px": [
+        96,
+        52,
+        1190,
+        135
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.038562091503267976,
+        0.014798713693348956,
+        0.4798692890242034,
+        0.03847666124796855
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CN CÔNG TY CP THƯƠNG MẠI BÁCH HÓA XANH - CH",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",

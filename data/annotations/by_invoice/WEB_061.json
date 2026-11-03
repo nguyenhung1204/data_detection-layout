@@ -8,118 +8,609 @@
   "assigned_to": "duy",
   "annotations": [
     {
-      "annotation_id": "region-744857d7-fd27-4f6a-9728-6cc2efa371ae",
+      "annotation_id": "auto-04cf110f8716fa8e99c4b13",
       "invoice_id": "WEB_061",
       "pdf": "WEB_061.pdf",
       "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
       "page": 1,
       "bbox_px": [
-        111,
-        60,
-        1151,
-        132
+        239,
+        234,
+        398,
+        276
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.044836625242544934,
-        0.017018515102090032,
-        0.46418301451439953,
-        0.03773673685382364
+        0.096371,
+        0.0667618,
+        0.1604839,
+        0.0787447
       ],
       "annotation_kind": "text_region",
-      "field_key": "seller_name",
+      "field_key": "seller_tax_code",
       "layout_key": "seller_block",
       "row_id": "",
-      "transcript": "CÔNG TY CỔ PHẦN THƯƠNG MẠI BÁCH HÓA XANH",
+      "transcript": "0310471746",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
       "split": "train",
       "assigned_to": "duy",
-      "source": "manual",
+      "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
       "updated_at": "2026-11-02T17:12:27+00:00",
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              239,
+              234,
+              398,
+              276
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0310471746",
+            "field_status": "needs_review"
+          }
+        }
+      ]
     },
     {
-      "annotation_id": "region-f94398ff-fd9c-4043-8381-222e9b88add1",
+      "annotation_id": "auto-116116458b8f9a510bae67f",
       "invoice_id": "WEB_061",
       "pdf": "WEB_061.pdf",
       "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
       "page": 1,
       "bbox_px": [
-        1136,
-        1030,
-        1268,
-        1071
+        225,
+        1086,
+        928,
+        1157
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.4579085206673816,
-        0.29375446540166145,
-        0.5112418380438113,
-        0.30559345329212445
+        0.0907258,
+        0.3098431,
+        0.3742483899484273,
+        0.33001132524088894
       ],
       "annotation_kind": "text_region",
-      "field_key": "unit",
-      "layout_key": "item_table",
-      "row_id": "1",
-      "transcript": "Thùng",
-      "transcript_status": "needs_review",
-      "recognition_status": "manual",
-      "field_status": "verified",
-      "split": "train",
-      "assigned_to": "duy",
-      "source": "manual",
-      "source_crop_id": "",
-      "confidence": null,
-      "updated_at": "2026-11-02T17:12:27+00:00",
-      "history": []
-    },
-    {
-      "annotation_id": "region-7886be68-6d20-48f2-bcd8-8cd383e89ab5",
-      "invoice_id": "WEB_061",
-      "pdf": "WEB_061.pdf",
-      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
-      "page": 1,
-      "bbox_px": [
-        1141,
-        1076,
-        1258,
-        1152
-      ],
-      "page_size_px": [
-        2480,
-        3505
-      ],
-      "bbox_norm": [
-        0.4599999920215482,
-        0.3070733020804143,
-        0.50705881555096,
-        0.32853150467890546
-      ],
-      "annotation_kind": "text_region",
-      "field_key": "unit",
+      "field_key": "item_description",
       "layout_key": "item_table",
       "row_id": "2",
-      "transcript": "Thùng",
+      "transcript": "NƯỚC TINH KHIẾT AQUAFINA CHAI 355ML TH24",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
       "split": "train",
       "assigned_to": "duy",
-      "source": "manual",
+      "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
       "updated_at": "2026-11-02T17:12:27+00:00",
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              225,
+              1086,
+              1251,
+              1222
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "NƯỚC TINH KHIẾT AQUAFINA CHAI 355ML TH24 Thùng Điều chinh cho hóa đơn Mẫu số 1 ký hiệu K25TAA số",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-134122a4e1f66747b48a48f",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1866,
+        1023,
+        1978,
+        1069
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.7524194,
+        0.2918688,
+        0.7975806,
+        0.3049929
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "320.909",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1866,
+              1023,
+              1978,
+              1069
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "320.909",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-1481a8cd4314bd050924ade",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        2287,
+        1088,
+        2397,
+        1132
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.9221774,
+        0.3104137,
+        0.9665323,
+        0.3229672
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "2",
+      "transcript": "107.407",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2287,
+              1088,
+              2397,
+              1132
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "107.407",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-1997bfd0a1106e4b400d4f6",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1569,
+        1024,
+        1595,
+        1070
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.6326613,
+        0.2921541,
+        0.6431452,
+        0.3052782
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "2",
+      "transcript": "4",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1569,
+              1024,
+              1595,
+              1070
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "4",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-259ec3e233ce3069f7914da",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        226,
+        1020,
+        801,
+        1066
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.091129,
+        0.2910128,
+        0.32300654392616424,
+        0.3041135762775283
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "BIA HEINEKEN SILVER LON 250ML TH24",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              226,
+              1020,
+              1252,
+              1076
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "BIA HEINEKEN SILVER LON 250ML TH24 Thùng",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-670c6e4d148901e3b0d6959",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        2265,
+        1025,
+        2397,
+        1067
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.9133065,
+        0.2924394,
+        0.9665323,
+        0.3044223
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "1.283.636",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2265,
+              1025,
+              2397,
+              1067
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "1.283.636",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-8d8002e1c04e7c2df5f99d0",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        2052,
+        249,
+        2282,
+        294
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.8274194,
+        0.0710414,
+        0.9201613,
+        0.0838802
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày: 25/06/2025",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2052,
+              249,
+              2282,
+              294
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày: 25/06/2025",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-99bd2fb5a34702024a75d59",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1868,
+        1087,
+        1977,
+        1131
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.7532258,
+        0.3101284,
+        0.7971774,
+        0.3226819
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "2",
+      "transcript": "107.407",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1868,
+              1087,
+              1977,
+              1131
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "107.407",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-d5c21e4e16b2576265c2baf",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        2117,
+        192,
+        2302,
+        238
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.853629,
+        0.0547789,
+        0.9282258,
+        0.067903
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "56693401",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2117,
+              192,
+              2302,
+              238
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "56693401",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-fff47693d185b0e5a43ed2c",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1363,
+        1024,
+        1447,
+        1069
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.5495968,
+        0.2921541,
+        0.5833987167458129,
+        0.30485350067167316
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "10 %",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T17:12:02+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1363,
+              1024,
+              1404,
+              1070
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "10",
+            "field_status": "needs_review"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-15eb6978-8717-4e0b-bf09-5fb2fe5a8ef1",
@@ -224,6 +715,120 @@
       "layout_key": "totals",
       "row_id": "",
       "transcript": "1.528.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-744857d7-fd27-4f6a-9728-6cc2efa371ae",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        111,
+        60,
+        1151,
+        132
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.044836625242544934,
+        0.017018515102090032,
+        0.46418301451439953,
+        0.03773673685382364
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY CỔ PHẦN THƯƠNG MẠI BÁCH HÓA XANH",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-7886be68-6d20-48f2-bcd8-8cd383e89ab5",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1141,
+        1076,
+        1258,
+        1152
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.4599999920215482,
+        0.3070733020804143,
+        0.50705881555096,
+        0.32853150467890546
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "2",
+      "transcript": "Thùng",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T17:12:27+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-f94398ff-fd9c-4043-8381-222e9b88add1",
+      "invoice_id": "WEB_061",
+      "pdf": "WEB_061.pdf",
+      "pdf_sha256": "e0bf44d2f28762a6947f3243b5af236618ca9559e5f3c194e7dbfc8711eef8a4",
+      "page": 1,
+      "bbox_px": [
+        1136,
+        1030,
+        1268,
+        1071
+      ],
+      "page_size_px": [
+        2480,
+        3505
+      ],
+      "bbox_norm": [
+        0.4579085206673816,
+        0.29375446540166145,
+        0.5112418380438113,
+        0.30559345329212445
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Thùng",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",

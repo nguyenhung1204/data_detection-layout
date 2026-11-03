@@ -1,31 +1,30 @@
 {
-  "active_policy": "Keep Duy/Vân manually drawn regions with field_key; additionally restore Duy manual regions without field_key as needs_review so they can be completed. Omit legacy OCR candidates and automatic crop proposals.",
+  "active_policy": "Keep Duy/Vân manual regions and Duy automatic crop proposals with field_status=verified. Exclude pending/rejected automatic proposals and legacy OCR review candidates.",
   "source_zip_sha256": {
     "duy": "f0610faa21b10401e678938448847efaea13f2caca71e55db1e05982387e549a",
     "van": "aefe8b934a07012ed363ecf170592f11f1c5e3018cf84a9a8a708b2ec7f10c18"
   },
   "invoice_count": 208,
-  "active_annotation_count": 2626,
+  "active_annotation_count": 4075,
   "active_status_counts": {
-    "verified": 2621,
+    "verified": 4070,
     "needs_review": 5
   },
   "active_by_assignee": {
-    "duy": 522,
+    "duy": 1971,
     "van": 2104
   },
   "active_blank_transcript_count": 13,
   "source_annotation_counts": {
     "existing_ocr_review_candidate": 17961,
-    "manual": 2629,
+    "manual": 522,
     "automatic_crop_proposal": 1560
   },
   "removed_from_active": {
     "existing_ocr_review_candidate": 17961,
-    "automatic_crop_proposal": 1560,
-    "manual_without_field_key": 3
+    "automatic_crop_proposal_pending_or_rejected": 111
   },
-  "active_field_labeled_count": 2623,
+  "active_field_labeled_count": 4072,
   "active_unassigned_manual_count": 3,
   "active_unassigned_manual_by_assignee": {
     "duy": 3
@@ -140,5 +139,38 @@
       "WEB_263": 2,
       "WEB_264": 0
     }
+  },
+  "imported_from_project_archive": {
+    "archive_name": "data_detection-layout-main.zip",
+    "archive_sha256": "26269f103faed4326f8c23b1124ad37b3d420cf5515be1565e88cc46d8303c46",
+    "imported_source": "automatic_crop_proposal",
+    "field_status": "verified",
+    "assigned_to": "duy",
+    "imported_annotation_count": 1449,
+    "invoice_count": 84,
+    "by_field": {
+      "invoice_date": 80,
+      "unit": 195,
+      "invoice_number": 76,
+      "unit_price": 246,
+      "tax_rate": 53,
+      "item_description": 141,
+      "seller_name": 64,
+      "quantity": 240,
+      "line_total": 238,
+      "seller_tax_code": 61,
+      "total_amount": 55
+    },
+    "row_id_present": 1113,
+    "pending_excluded": 110,
+    "rejected_excluded": 1,
+    "geometry_overlap_check": {
+      "compared_pairs_same_invoice_page": 8013,
+      "pairs_with_any_overlap": 3,
+      "pairs_iou_at_least_0_5": 0,
+      "exact_bbox_pairs": 0
+    },
+    "imported_at_utc": "2026-11-03T09:08:10+00:00",
+    "backup_dir": "data\\manifests\\pre_auto_crop_import_20261103_090810"
   }
 }

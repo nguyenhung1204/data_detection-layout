@@ -8,70 +8,252 @@
   "assigned_to": "duy",
   "annotations": [
     {
-      "annotation_id": "region-91342f18-768c-4ec2-8f25-0197870cc38a",
+      "annotation_id": "auto-4d4ba0c7aeecb5b1ccad5f0",
       "invoice_id": "HD_028",
       "pdf": "HD_028.pdf",
       "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
       "page": 1,
       "bbox_px": [
-        462,
-        1394,
-        1023,
-        1515
+        592,
+        712,
+        762,
+        770
       ],
       "page_size_px": [
         3508,
         2481
       ],
       "bbox_norm": [
-        0.13163400288500818,
-        0.5618833945015088,
-        0.2916339949065564,
-        0.6106786316980167
+        0.1687571,
+        0.2869811,
+        0.2172178,
+        0.3103587
       ],
       "annotation_kind": "text_region",
-      "field_key": "item_description",
-      "layout_key": "item_table",
-      "row_id": "1",
-      "transcript": "MacBook Pro 13-inch (M1 chip/ 8- CPU/ 8-core GPU/ 512GB SSD - Gray ùĊėĎĆđÆôĚĒćĊėàÆC02HF662Q05F",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "00094116",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
       "split": "test",
       "assigned_to": "duy",
-      "source": "manual",
+      "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
       "updated_at": "2026-11-02T15:57:59+00:00",
-      "history": []
+      "history": [
+        {
+          "at": "2026-11-02T15:57:39+00:00",
+          "snapshot": {
+            "bbox_px": [
+              592,
+              712,
+              762,
+              770
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "00094116",
+            "field_status": "needs_review"
+          }
+        }
+      ]
     },
     {
-      "annotation_id": "region-f9486b21-e34c-4905-beaa-7c3f7c63d1a9",
+      "annotation_id": "auto-52b1e3107f79aa3b71d1677",
       "invoice_id": "HD_028",
       "pdf": "HD_028.pdf",
       "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
       "page": 1,
       "bbox_px": [
-        1082,
-        1401,
-        1247,
-        1493
+        559,
+        319,
+        1599,
+        370
       ],
       "page_size_px": [
         3508,
         2481
       ],
       "bbox_norm": [
-        0.3083652648365997,
-        0.5648406867321145,
-        0.35542408836601147,
-        0.6018066986005418
+        0.1593501,
+        0.1285772,
+        0.4558153,
+        0.1491334
       ],
       "annotation_kind": "text_region",
-      "field_key": "unit",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY TNHH MAPPLE MITRA ADIPERKASA VIỆT NAM",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:57:59+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T15:57:39+00:00",
+          "snapshot": {
+            "bbox_px": [
+              559,
+              319,
+              1599,
+              370
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY TNHH MAPPLE MITRA ADIPERKASA VIỆT NAM",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a3476e06d76848d9c0087b1",
+      "invoice_id": "HD_028",
+      "pdf": "HD_028.pdf",
+      "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
+      "page": 1,
+      "bbox_px": [
+        3186,
+        1736,
+        3372,
+        1786
+      ],
+      "page_size_px": [
+        3508,
+        2481
+      ],
+      "bbox_norm": [
+        0.9082098,
+        0.6997179,
+        0.9612315,
+        0.719871
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "30,190,000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:57:59+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T15:57:39+00:00",
+          "snapshot": {
+            "bbox_px": [
+              3186,
+              1736,
+              3372,
+              1786
+            ],
+            "field_key": "total_amount",
+            "layout_key": "totals",
+            "row_id": "",
+            "transcript": "30,190,000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-c9cf55aaeadf21b11c13225",
+      "invoice_id": "HD_028",
+      "pdf": "HD_028.pdf",
+      "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
+      "page": 1,
+      "bbox_px": [
+        108,
+        858,
+        945,
+        907
+      ],
+      "page_size_px": [
+        3508,
+        2481
+      ],
+      "bbox_norm": [
+        0.0307868,
+        0.3458283,
+        0.2693843,
+        0.3655784
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày (date) 25 tháng (month) 06 năm (year) 2024",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:57:59+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T15:57:39+00:00",
+          "snapshot": {
+            "bbox_px": [
+              108,
+              858,
+              945,
+              907
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày (date) 25 tháng (month) 06 năm (year) 2024",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "region-27704e83-73ee-435a-856e-9cc824aacd90",
+      "invoice_id": "HD_028",
+      "pdf": "HD_028.pdf",
+      "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
+      "page": 1,
+      "bbox_px": [
+        2406,
+        1408,
+        2516,
+        1482
+      ],
+      "page_size_px": [
+        3508,
+        2481
+      ],
+      "bbox_norm": [
+        0.6858337819374706,
+        0.5676537518111486,
+        0.7171981306268778,
+        0.5972190502098265
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "tax_rate",
       "layout_key": "item_table",
       "row_id": "1",
-      "transcript": "Cái",
+      "transcript": "10%",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
@@ -198,32 +380,32 @@
       "history": []
     },
     {
-      "annotation_id": "region-27704e83-73ee-435a-856e-9cc824aacd90",
+      "annotation_id": "region-91342f18-768c-4ec2-8f25-0197870cc38a",
       "invoice_id": "HD_028",
       "pdf": "HD_028.pdf",
       "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
       "page": 1,
       "bbox_px": [
-        2406,
-        1408,
-        2516,
-        1482
+        462,
+        1394,
+        1023,
+        1515
       ],
       "page_size_px": [
         3508,
         2481
       ],
       "bbox_norm": [
-        0.6858337819374706,
-        0.5676537518111486,
-        0.7171981306268778,
-        0.5972190502098265
+        0.13163400288500818,
+        0.5618833945015088,
+        0.2916339949065564,
+        0.6106786316980167
       ],
       "annotation_kind": "text_region",
-      "field_key": "tax_rate",
+      "field_key": "item_description",
       "layout_key": "item_table",
       "row_id": "1",
-      "transcript": "10%",
+      "transcript": "MacBook Pro 13-inch (M1 chip/ 8- CPU/ 8-core GPU/ 512GB SSD - Gray ùĊėĎĆđÆôĚĒćĊėàÆC02HF662Q05F",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",
@@ -262,6 +444,44 @@
       "layout_key": "seller_block",
       "row_id": "",
       "transcript": "0316998320",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:57:59+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-f9486b21-e34c-4905-beaa-7c3f7c63d1a9",
+      "invoice_id": "HD_028",
+      "pdf": "HD_028.pdf",
+      "pdf_sha256": "a78549228ad750da264f6c7c245815a93e1f35c72d2dfa1027d173cb45318055",
+      "page": 1,
+      "bbox_px": [
+        1082,
+        1401,
+        1247,
+        1493
+      ],
+      "page_size_px": [
+        3508,
+        2481
+      ],
+      "bbox_norm": [
+        0.3083652648365997,
+        0.5648406867321145,
+        0.35542408836601147,
+        0.6018066986005418
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Cái",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
       "field_status": "verified",

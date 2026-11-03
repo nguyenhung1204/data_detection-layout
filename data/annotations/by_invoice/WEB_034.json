@@ -8,6 +8,446 @@
   "assigned_to": "duy",
   "annotations": [
     {
+      "annotation_id": "auto-1c97e9da9ba2c843fdcc446",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        1763,
+        753,
+        1989,
+        822
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.7108871,
+        0.2145911,
+        0.8020161,
+        0.2342548
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "0091356",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1763,
+              753,
+              1989,
+              822
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "0091356",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-3e456f9ce625e9422ce4a49",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        1047,
+        757,
+        1580,
+        813
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4221774,
+        0.215731,
+        0.6370968,
+        0.2316899
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": ".Ngày 20 tháng 03.năm 2022.",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1047,
+              757,
+              1580,
+              813
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": ".Ngày 20 tháng 03.năm 2022.",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-40d00b7e1c2944b7a3bfe70",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        1070,
+        277,
+        1320,
+        322
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4314516,
+        0.0789399,
+        0.5322581,
+        0.091764
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "0302861742-001",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1070,
+              277,
+              1320,
+              322
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0302861742-001",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-43ebe799f380f3c44021039",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        2057,
+        2248,
+        2247,
+        2291
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8294355,
+        0.6406384,
+        0.9060484,
+        0.6528926
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "31.559.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2057,
+              2248,
+              2247,
+              2291
+            ],
+            "field_key": "total_amount",
+            "layout_key": "totals",
+            "row_id": "",
+            "transcript": "31.559.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-50df37a61dfe009f94e6371",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        1023,
+        196,
+        2122,
+        267
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4125,
+        0.0558564,
+        0.8556452,
+        0.0760901
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CHI NHÁNH CÔNG TY CỔ PHẦN THẾ GIỚI SỐ",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1023,
+              196,
+              2122,
+              267
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CHI NHÁNH CÔNG TY CỔ PHẦN THẾ GIỚI SỐ",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-dbaadb71c3f0c3549bc4c4f",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        1788,
+        1544,
+        1999,
+        1590
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.7209677,
+        0.4400114,
+        0.8060484,
+        0.4531205
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "28.690.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1788,
+              1544,
+              1999,
+              1590
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "28.690.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-df23027a28b828a3f8b69f7",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        2053,
+        1543,
+        2264,
+        1589
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8278226,
+        0.4397264,
+        0.9129032,
+        0.4528356
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "28.690.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2053,
+              1543,
+              2264,
+              1589
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "28.690.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-e8d32a4fc364d46f4356867",
+      "invoice_id": "WEB_034",
+      "pdf": "WEB_034.pdf",
+      "pdf_sha256": "b8f3de119da1f37f60122d7165795a44d3294f3d3c0671a2beb49de8e8abd3c5",
+      "page": 1,
+      "bbox_px": [
+        296,
+        1530,
+        1068,
+        1605
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.1193548,
+        0.4360217,
+        0.430718994140625,
+        0.4574965912703591
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "ĐIỆN THOẠI DI ĐỘNG APPLE IPHONE 13 PRO MAX GOLD 128GB",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:23:21+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:23:21+00:00",
+          "snapshot": {
+            "bbox_px": [
+              296,
+              1530,
+              1066,
+              1568
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "ĐIỆN THOẠI DI ĐỘNG APPLE IPHONE 13 PRO MAX",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
       "annotation_id": "region-b9ccfe52-fa13-4a1d-bd38-8a9e2dba8bcb",
       "invoice_id": "WEB_034",
       "pdf": "WEB_034.pdf",

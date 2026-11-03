@@ -8,6 +8,374 @@
   "assigned_to": "duy",
   "annotations": [
     {
+      "annotation_id": "auto-029e603e3bfdfc90fd367fb",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        2107,
+        206,
+        2176,
+        280
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.8499395,
+        0.0587229,
+        0.8777733,
+        0.0798176
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "56",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2107,
+              206,
+              2176,
+              280
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "56",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-21a5fb77dc799c9e9e83980",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        1708,
+        2196,
+        1924,
+        2256
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.6889875,
+        0.6259977,
+        0.7761194,
+        0.6431015
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "2.710.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1708,
+              2196,
+              1924,
+              2256
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "2.710.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-5a2fcd3448bc4a8a0b55eb2",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        1584,
+        2194,
+        1620,
+        2262
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.6389673,
+        0.6254276,
+        0.6534893,
+        0.6448119
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "1",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1584,
+              2194,
+              1620,
+              2262
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "1",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a0c7636868e4146be250c2f",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        919,
+        552,
+        1556,
+        621
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.370714,
+        0.1573546,
+        0.6276724,
+        0.1770239
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày 26 tháng 10 năm  2022",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              919,
+              552,
+              1556,
+              621
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày 26 tháng 10 năm  2022",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a20cab24573410c7657b1e3",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        327,
+        866,
+        613,
+        932
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.131908,
+        0.2468643,
+        0.2472771,
+        0.2656784
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "1400215604",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              327,
+              866,
+              613,
+              932
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "1400215604",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-e59c03004468fc3dd6453ff",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        588,
+        2197,
+        1118,
+        2310
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.2371924,
+        0.6262828,
+        0.4509883,
+        0.6584949
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Micro không dây UGX23 SHURE",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:12:42+00:00",
+          "snapshot": {
+            "bbox_px": [
+              588,
+              2197,
+              1118,
+              2310
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "Micro không dây UGX23 SHURE",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "region-44255db2-d296-4d7e-b90e-62f45c765630",
+      "invoice_id": "WEB_106",
+      "pdf": "WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        1903,
+        2634,
+        2149,
+        2678
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.7674509883706087,
+        0.7508284988961054,
+        0.8667973935993669,
+        0.7633915799997453
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "2.710.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:12:42+00:00",
+      "history": []
+    },
+    {
       "annotation_id": "region-44e368af-6a07-42df-9d5e-832582d74740",
       "invoice_id": "WEB_106",
       "pdf": "WEB_106.pdf",
@@ -71,44 +439,6 @@
       "field_key": "line_total",
       "layout_key": "item_table",
       "row_id": "1",
-      "transcript": "2.710.000",
-      "transcript_status": "needs_review",
-      "recognition_status": "manual",
-      "field_status": "verified",
-      "split": "train",
-      "assigned_to": "duy",
-      "source": "manual",
-      "source_crop_id": "",
-      "confidence": null,
-      "updated_at": "2026-11-03T02:12:42+00:00",
-      "history": []
-    },
-    {
-      "annotation_id": "region-44255db2-d296-4d7e-b90e-62f45c765630",
-      "invoice_id": "WEB_106",
-      "pdf": "WEB_106.pdf",
-      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
-      "page": 1,
-      "bbox_px": [
-        1903,
-        2634,
-        2149,
-        2678
-      ],
-      "page_size_px": [
-        2479,
-        3508
-      ],
-      "bbox_norm": [
-        0.7674509883706087,
-        0.7508284988961054,
-        0.8667973935993669,
-        0.7633915799997453
-      ],
-      "annotation_kind": "text_region",
-      "field_key": "total_amount",
-      "layout_key": "totals",
-      "row_id": "",
       "transcript": "2.710.000",
       "transcript_status": "needs_review",
       "recognition_status": "manual",

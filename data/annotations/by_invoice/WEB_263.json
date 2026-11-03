@@ -8,6 +8,446 @@
   "assigned_to": "duy",
   "annotations": [
     {
+      "annotation_id": "auto-0342a37f3236ef82df989dc",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        1730,
+        1912,
+        2004,
+        1972
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.8385846,
+        0.8118896,
+        0.9714009,
+        0.8373673
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "32.780.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1730,
+              1912,
+              2004,
+              1972
+            ],
+            "field_key": "total_amount",
+            "layout_key": "totals",
+            "row_id": "",
+            "transcript": "32.780.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-363610435b1ac51fa9b6411",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        16,
+        346,
+        696,
+        422
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.0077557,
+        0.1469214,
+        0.3373728,
+        0.1791932
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày 08 tháng 12 năm 2018",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              16,
+              346,
+              696,
+              422
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày 08 tháng 12 năm 2018",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-7f4fc8b0ddf1fc3965338a4",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        440,
+        433,
+        1239,
+        507
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.2132816,
+        0.1838641,
+        0.6005817,
+        0.2152866
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "Công ty TNHH TBXD Nam Phát",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              440,
+              433,
+              1239,
+              507
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "Công ty TNHH TBXD Nam Phát",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-819a8128e381ee0fd1bd006",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        1596,
+        259,
+        1949,
+        324
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.7735543643229167,
+        0.11004510906837964,
+        0.9446643643229167,
+        0.13764590906837965
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "0000080",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1598,
+              24,
+              1951,
+              89
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "01",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-911037504f377a483d8c8d0",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        984,
+        1574,
+        1089,
+        1642
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.4769753,
+        0.6683652,
+        0.527872,
+        0.6972399
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "100",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              984,
+              1574,
+              1089,
+              1642
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "100",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a7eb504baad13f8b64487ba",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        310,
+        507,
+        617,
+        582
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.1502666,
+        0.2152866,
+        0.299079,
+        0.2471338
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "0108016365",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              310,
+              507,
+              617,
+              582
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0108016365",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-beacf4183c1be5048dd67f9",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        1762,
+        1576,
+        2039,
+        1639
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.8541722356770833,
+        0.6692144,
+        0.9884427356770833,
+        0.695966
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "29.800.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1760,
+              1576,
+              2037,
+              1639
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "29.800.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-c63a250c46a76603b55c244",
+      "invoice_id": "WEB_263",
+      "pdf": "WEB_263.pdf",
+      "pdf_sha256": "550e6123d461fa63aedd64ac5c55057d47b2482d748d08c2a7c8910fb78979c4",
+      "page": 1,
+      "bbox_px": [
+        147,
+        1576,
+        546,
+        1642
+      ],
+      "page_size_px": [
+        2063,
+        2355
+      ],
+      "bbox_norm": [
+        0.0712555,
+        0.6692144,
+        0.2646631,
+        0.6972399
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Gạch lát Granite",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T03:10:24+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T03:10:24+00:00",
+          "snapshot": {
+            "bbox_px": [
+              147,
+              1576,
+              546,
+              1642
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "Gạch lát Granite",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
       "annotation_id": "region-3db078a3-3c85-4961-af76-0633fc995fa2",
       "invoice_id": "WEB_263",
       "pdf": "WEB_263.pdf",
