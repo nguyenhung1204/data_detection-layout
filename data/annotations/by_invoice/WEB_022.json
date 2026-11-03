@@ -2402,6 +2402,234 @@
       "history": []
     },
     {
+      "annotation_id": "auto-3a67e353e911d2c33da1bcd",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        1886,
+        2326,
+        2059,
+        2380
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.7604839,
+        0.6628669,
+        0.8302419,
+        0.6782559
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "600.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-60a2aa5370f60c5451bd8b7",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        463,
+        1138,
+        1097,
+        1288
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.1866935,
+        0.3243089,
+        0.4423387,
+        0.3670561
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "BEP HONG NGOAI SANAKY SNK-2014HG Giám gia",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-6dff2a61193541760341f03",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        1874,
+        1131,
+        2095,
+        1187
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.7556452,
+        0.322314,
+        0.8447581,
+        0.338273
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "900.000.00",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-7457285dfaa914824fd9043",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        1512,
+        1136,
+        1731,
+        1189
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.6096774,
+        0.323739,
+        0.6979839,
+        0.338843
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "900.000.00",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-bb860de2282612dbc052a98",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        348,
+        221,
+        1149,
+        303
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.1403226,
+        0.0629809,
+        0.4633065,
+        0.0863494
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CONG TY CÓ PHAN THUONG MAI NGUYĚN KIM",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-f0e64cf3be4128c1efe4890",
+      "invoice_id": "WEB_022",
+      "pdf": "WEB_022.pdf",
+      "pdf_sha256": "e5eee83d61c22d179cec20ed5e2e59f63f4624ae595cd8f850c2449409be0cbf",
+      "page": 1,
+      "bbox_px": [
+        1142,
+        1144,
+        1211,
+        1194
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4604839,
+        0.3260188,
+        0.4883065,
+        0.3402679
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Cal",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
       "annotation_id": "b1a84ae7f06e2e6f3859",
       "invoice_id": "WEB_022",
       "pdf": "WEB_022.pdf",

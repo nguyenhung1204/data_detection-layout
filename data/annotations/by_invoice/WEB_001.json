@@ -5328,6 +5328,82 @@
       "history": []
     },
     {
+      "annotation_id": "auto-3782280d0db7cc67b2e28c3",
+      "invoice_id": "WEB_001",
+      "pdf": "WEB_001.pdf",
+      "pdf_sha256": "e859b96130cd60be9cbd78a619e2837664d0e5a8488b8a23cf522fc2741f532b",
+      "page": 1,
+      "bbox_px": [
+        2093,
+        2565,
+        2322,
+        2622
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8439516,
+        0.7309775,
+        0.9362903,
+        0.7472214
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "7.482,400,00",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-df2f9443baa88abb16e2f23",
+      "invoice_id": "WEB_001",
+      "pdf": "WEB_001.pdf",
+      "pdf_sha256": "e859b96130cd60be9cbd78a619e2837664d0e5a8488b8a23cf522fc2741f532b",
+      "page": 1,
+      "bbox_px": [
+        643,
+        132,
+        2256,
+        219
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.2592742,
+        0.0376176,
+        0.9096774,
+        0.0624109
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY TNHH MÔT THÀNH VIÊN THU'ONG MAI DICH V AN DÔNG",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
       "annotation_id": "b1bf815ba7fece95dc5e",
       "invoice_id": "WEB_001",
       "pdf": "WEB_001.pdf",

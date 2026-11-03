@@ -3770,6 +3770,120 @@
       "history": []
     },
     {
+      "annotation_id": "auto-10f9652e72dc27bfd2af1b9",
+      "invoice_id": "WEB_011",
+      "pdf": "WEB_011.pdf",
+      "pdf_sha256": "bb9644c29cde040212c7c9ca127bbcab1e2859cc251ae033cb7accaec4f5403b",
+      "page": 1,
+      "bbox_px": [
+        1546,
+        280,
+        1763,
+        376
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.6233871,
+        0.0797948,
+        0.7108871,
+        0.107153
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "0905441",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-50b98c42354f33fcec53abc",
+      "invoice_id": "WEB_011",
+      "pdf": "WEB_011.pdf",
+      "pdf_sha256": "bb9644c29cde040212c7c9ca127bbcab1e2859cc251ae033cb7accaec4f5403b",
+      "page": 1,
+      "bbox_px": [
+        72,
+        305,
+        822,
+        365
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.0290323,
+        0.0869194,
+        0.3314516,
+        0.1040182
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY CÓ PHÀN THUONG MAI NGUYĚN KIM",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-b58ec52b50448d6a4c3b6a8",
+      "invoice_id": "WEB_011",
+      "pdf": "WEB_011.pdf",
+      "pdf_sha256": "bb9644c29cde040212c7c9ca127bbcab1e2859cc251ae033cb7accaec4f5403b",
+      "page": 1,
+      "bbox_px": [
+        1511,
+        2203,
+        1712,
+        2259
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.6092742,
+        0.6278142,
+        0.6903226,
+        0.6437732
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "4.939.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
       "annotation_id": "b1502974b17b3fcc7d04",
       "invoice_id": "WEB_011",
       "pdf": "WEB_011.pdf",

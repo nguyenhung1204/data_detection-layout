@@ -2060,6 +2060,556 @@
       "history": []
     },
     {
+      "annotation_id": "auto-2eb9a4387034a389d81c64b",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        980,
+        440,
+        1808,
+        494
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.3951613,
+        0.1253918,
+        0.7290323,
+        0.1407808
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày (Date) 25 tháng (month) 04 năm (year) 2025",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              980,
+              440,
+              1808,
+              494
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày (Date) 25 tháng (month) 04 năm (year) 2025",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-399aa5e2d05e4b27201e9c5",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        1009,
+        1443,
+        1084,
+        1500
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4068548,
+        0.4112283,
+        0.4370968,
+        0.4274722
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "cái",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1009,
+              1443,
+              1084,
+              1500
+            ],
+            "field_key": "unit",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "cái",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-8a0f10363fbd3bad9ec61aa",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        250,
+        605,
+        1547,
+        659
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.1008065,
+        0.1724138,
+        0.6237903,
+        0.1878028
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY TNHH NHỰA VÀ CAO SU KIẾN PHÁT VIỆT NAM",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              250,
+              605,
+              1547,
+              659
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY TNHH NHỰA VÀ CAO SU KIẾN PHÁT VIỆT NAM",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-9e34ac65e1c02eecc712735",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        1318,
+        1447,
+        1496,
+        1494
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.5314516,
+        0.4123682,
+        0.6032258,
+        0.4257623
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "1.250.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1318,
+              1447,
+              1496,
+              1494
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "1.250.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a84baf2a494cc950e50999a",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        1992,
+        1454,
+        2069,
+        1511
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8032258,
+        0.4143631,
+        0.8342742,
+        0.430607
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "tax_rate",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "8%",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1992,
+              1454,
+              2069,
+              1511
+            ],
+            "field_key": "tax_rate",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "8%",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-b21240b77e62a22986c33ae",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        652,
+        660,
+        895,
+        715
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.2629032,
+        0.1880878,
+        0.3608871,
+        0.2037618
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "3900335269",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              652,
+              660,
+              895,
+              715
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "3900335269",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-b6b90ae74c205a731dcd155",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        2165,
+        450,
+        2315,
+        514
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8729839,
+        0.1282417,
+        0.9334677,
+        0.1464805
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "0000093",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2165,
+              450,
+              2315,
+              514
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "0000093",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-d11737ba486e9982189ab2c",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        1177,
+        1443,
+        1241,
+        1498
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.4745968,
+        0.4112283,
+        0.5004032,
+        0.4269023
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "14",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1177,
+              1443,
+              1241,
+              1498
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "14",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-d58bb5f5f48025a8098364c",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        1568,
+        1445,
+        1768,
+        1494
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.6322581,
+        0.4117982,
+        0.7129032,
+        0.4257623
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "17.500.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1568,
+              1445,
+              1768,
+              1494
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "17.500.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-f4db5d5b71b2d66e281b168",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        400,
+        1444,
+        923,
+        1502
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.1612903,
+        0.4115133,
+        0.3721774,
+        0.4280422
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Vỏ xe 900-20 ( Đắp gia công )",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
+      "history": [
+        {
+          "at": "2026-11-02T16:08:51+00:00",
+          "snapshot": {
+            "bbox_px": [
+              400,
+              1444,
+              923,
+              1502
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "Vỏ xe 900-20 ( Đắp gia công )",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
       "annotation_id": "b08ed06bcbed17a0c554",
       "invoice_id": "HD_190",
       "pdf": "HD_190.pdf",
@@ -3159,6 +3709,44 @@
       "source_crop_id": "f78bd6e3248bd5ee76d9",
       "confidence": "0.9975911974906921",
       "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "region-3e5c2e2a-df6b-46fc-a101-a6bbfacfb71c",
+      "invoice_id": "HD_190",
+      "pdf": "HD_190.pdf",
+      "pdf_sha256": "04cfff42343cddb01d0b84d85ed768f03521d95b2171f94234b1568c71a58ebe",
+      "page": 1,
+      "bbox_px": [
+        2176,
+        2158,
+        2370,
+        2236
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8772549099392362,
+        0.6149227319842073,
+        0.9556862824882557,
+        0.637095425427165
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "18.900.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T16:08:51+00:00",
       "history": []
     }
   ],

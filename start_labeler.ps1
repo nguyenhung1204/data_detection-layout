@@ -10,7 +10,7 @@ if (-not (Test-Path -LiteralPath $PythonExe)) {
     if ($LASTEXITCODE -ne 0) { throw 'Không tạo được môi trường Python.' }
 }
 if (-not (Test-Path -LiteralPath $PythonExe)) { throw 'Không tìm thấy Python trong .venv.' }
-& $PythonExe -c 'import pypdfium2' 2>$null
+& $PythonExe -c 'import pypdfium2, PIL' 2>$null
 if ($LASTEXITCODE -ne 0) {
     & $PythonExe -m pip install --upgrade pip
     & $PythonExe -m pip install -r requirements.txt

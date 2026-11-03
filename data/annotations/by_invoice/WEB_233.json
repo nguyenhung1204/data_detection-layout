@@ -1566,6 +1566,391 @@
       "history": []
     },
     {
+      "annotation_id": "auto-087cd86c2c9c6ddf08bc219",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        1486,
+        1768,
+        1574,
+        1827
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.5987107,
+        0.5039909,
+        0.634166,
+        0.5208096
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "100",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1486,
+              1768,
+              1574,
+              1827
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "100",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-5d885e24636b9348175ec78",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        1791,
+        499,
+        1967,
+        555
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.7215955,
+        0.1422463,
+        0.792506,
+        0.1582098
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "0000982",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1791,
+              499,
+              1967,
+              555
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "0000982",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-83a9de42d9a172d5385c4a2",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        707,
+        654,
+        1248,
+        713
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.2848509,
+        0.186431,
+        0.5028203,
+        0.2032497
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "Công ty TNHH Vạn Xuân",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              707,
+              654,
+              1248,
+              713
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "Công ty TNHH Vạn Xuân",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-86db40c7280e552a33756bf",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        2093,
+        1783,
+        2320,
+        1842
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.8432716,
+        0.5082668,
+        0.9347301,
+        0.5250855
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "23.000000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2093,
+              1783,
+              2320,
+              1842
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "23.000000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-885c752453b36779a2ac37a",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        1836,
+        1785,
+        2014,
+        1843
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.739726,
+        0.5088369,
+        0.8114424,
+        0.5253706
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "230.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1836,
+              1785,
+              2014,
+              1843
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "230.000",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-a7df8db7f6b4a417154ec46",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        756,
+        553,
+        1303,
+        614
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.3045931,
+        0.1576397,
+        0.5249799,
+        0.1750285
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày 11 tháng 12 Năm 2019",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              756,
+              553,
+              1303,
+              614
+            ],
+            "field_key": "invoice_date",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "Ngày 11 tháng 12 Năm 2019",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
+      "annotation_id": "auto-dd1b459583ee681b5880f62",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        596,
+        739,
+        860,
+        801
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.2401289,
+        0.2106613,
+        0.3464948,
+        0.2283352
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "0102131358",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T02:52:41+00:00",
+          "snapshot": {
+            "bbox_px": [
+              596,
+              739,
+              860,
+              801
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0102131358",
+            "field_status": "needs_review"
+          }
+        }
+      ]
+    },
+    {
       "annotation_id": "b6b0b25aef268e701ae3",
       "invoice_id": "WEB_233",
       "pdf": "WEB_233.pdf",
@@ -1981,6 +2366,120 @@
       "source_crop_id": "ff4307a612d27e2da737",
       "confidence": "0.972332239151001",
       "updated_at": "",
+      "history": []
+    },
+    {
+      "annotation_id": "region-009bed8f-9c56-4016-826e-150a07db392a",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        2037,
+        2471,
+        2336,
+        2541
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.8207843057470384,
+        0.7043862783583661,
+        0.9410458234400529,
+        0.7243635967459958
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "25.300.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-33f2f771-63c6-4074-aa6e-65a44f7d8ca4",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        469,
+        1775,
+        693,
+        1843
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.1891503427542892,
+        0.506092626203867,
+        0.27908500721252044,
+        0.5253301108141841
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Đá dăm",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-45068206-0a52-4c2d-bc97-a91c09c47a06",
+      "invoice_id": "WEB_233",
+      "pdf": "WEB_233.pdf",
+      "pdf_sha256": "d35c5459aeb12308380bb291be2f55f8a0d8650527f61bfbd579578d06551173",
+      "page": 1,
+      "bbox_px": [
+        1194,
+        1768,
+        1297,
+        1830
+      ],
+      "page_size_px": [
+        2482,
+        3508
+      ],
+      "bbox_norm": [
+        0.4809150247012868,
+        0.5038729555219114,
+        0.5227450900607639,
+        0.5216306032275856
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "M3",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T02:52:41+00:00",
       "history": []
     }
   ],

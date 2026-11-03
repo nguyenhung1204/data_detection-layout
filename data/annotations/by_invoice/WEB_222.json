@@ -1868,6 +1868,386 @@
       "confidence": "0.9880365133285522",
       "updated_at": "",
       "history": []
+    },
+    {
+      "annotation_id": "region-22db450b-95d1-498b-8bb1-0d4f42359736",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        2029,
+        615,
+        2228,
+        672
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.7956835173902552,
+        0.18632103978708,
+        0.873819254323094,
+        0.20367444324291933
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "000771",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-4c500091-94ff-40d1-94fe-0dd1da8edca0",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        2012,
+        2197,
+        2343,
+        2294
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.7888467073836515,
+        0.6654250214022681,
+        0.9187473732237826,
+        0.6948503191344999
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "415.445.811",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-6d0ff5d7-83c8-467c-94fb-824d40412668",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        577,
+        1868,
+        1142,
+        1970
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.2262694907672384,
+        0.5658317457992967,
+        0.4479795773391488,
+        0.5967660426346386
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "Hệ thống chống sét",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-71eaa85e-2e85-48ff-97ff-fc22a6ad16fd",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        1038,
+        533,
+        1713,
+        600
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.40695833458512837,
+        0.16142269008993437,
+        0.6716431019843933,
+        0.18179406711487175
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày 18 tháng 11 năm 2020",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-73f04d76-1327-43e2-9757-65f556ddba08",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        1222,
+        1873,
+        1429,
+        1972
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.47923394865516394,
+        0.5673407695395293,
+        0.5602998108051374,
+        0.5975205545047549
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "cái",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-84de83ea-0342-449e-83ab-f96e5a2bdfa2",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        1728,
+        1868,
+        2002,
+        1943
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.6775032886329295,
+        0.5658317457992967,
+        0.7849399588084494,
+        0.588466584523216
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "1.987.779",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-c9585617-2080-4988-b4a4-3d9b4e7d1918",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        1516,
+        1865,
+        1683,
+        1950
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.594484052195355,
+        0.5650772585663028,
+        0.6599227286873208,
+        0.5907300954964424
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "quantity",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "190",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-e1399ff6-00f0-403f-87dd-936c42d1a3f0",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        2029,
+        1863,
+        2350,
+        1962
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.7956835173902552,
+        0.5643227466961864,
+        0.9216775622266501,
+        0.5945025316614122
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "1",
+      "transcript": "377.678.010",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-ea2946be-4228-4e5e-bb82-5b517fc1730f",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        746,
+        889,
+        1586,
+        956
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.29268479061727176,
+        0.26931542380432844,
+        0.621831547364702,
+        0.28968677619214356
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "Công ty TNHH Cơ Điện Thịnh Phát",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-fccf21ef-ddcd-4a59-a781-2a955f177c5e",
+      "invoice_id": "WEB_222",
+      "pdf": "WEB_222.pdf",
+      "pdf_sha256": "aebc324ca476fef03bc3d8969fa2a9489a3a4bf6beb742ac340fb01ae2c06604",
+      "page": 1,
+      "bbox_px": [
+        622,
+        966,
+        928,
+        1036
+      ],
+      "page_size_px": [
+        2550,
+        3301
+      ],
+      "bbox_norm": [
+        0.24384998692711402,
+        0.29270473436304023,
+        0.36398371754350684,
+        0.3138306232580938
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_tax_code",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "4101546032",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T18:42:08+00:00",
+      "history": []
     }
   ],
   "updated_at": ""

@@ -2744,6 +2744,120 @@
       "history": []
     },
     {
+      "annotation_id": "auto-231cb0b9853979e02c5f9f7",
+      "invoice_id": "WEB_004",
+      "pdf": "WEB_004.pdf",
+      "pdf_sha256": "8309c8ef317522f24335f262dc582562e9578a34175c00a4f0f9de443ee44019",
+      "page": 1,
+      "bbox_px": [
+        1471,
+        625,
+        1566,
+        678
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.5931452,
+        0.1781134,
+        0.6314516,
+        0.1932174
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_number",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "2018",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-bd6c37065dfcd871e52379c",
+      "invoice_id": "WEB_004",
+      "pdf": "WEB_004.pdf",
+      "pdf_sha256": "8309c8ef317522f24335f262dc582562e9578a34175c00a4f0f9de443ee44019",
+      "page": 1,
+      "bbox_px": [
+        653,
+        175,
+        2257,
+        250
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.2633065,
+        0.0498718,
+        0.9100806,
+        0.0712454
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY TNHH MÔT THÀNH VIÊN THU'ONG MAI DICH VU AN DÔNG",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "auto-d746a8d6f84f67c0211321f",
+      "invoice_id": "WEB_004",
+      "pdf": "WEB_004.pdf",
+      "pdf_sha256": "8309c8ef317522f24335f262dc582562e9578a34175c00a4f0f9de443ee44019",
+      "page": 1,
+      "bbox_px": [
+        2119,
+        2526,
+        2339,
+        2578
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8544355,
+        0.7198632,
+        0.9431452,
+        0.7346822
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "4.898.000.00",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "needs_review",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_crop_proposal",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-02T15:18:58+00:00",
+      "history": []
+    },
+    {
       "annotation_id": "b4d27c1680933ad31547",
       "invoice_id": "WEB_004",
       "pdf": "WEB_004.pdf",
