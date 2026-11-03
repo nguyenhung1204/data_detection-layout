@@ -20,7 +20,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 - Chỉ gán 11 trường mục tiêu trong bộ chọn **Trường cần nhận diện**. Khung nên ôm sát giá trị, không lấy nhãn mô tả hoặc tiêu đề cột; loại vùng bố cục được suy ra tự động từ trường.
 - Để đỡ gõ transcript, sau khi vẽ/chọn vùng bấm **Chép chữ trong vùng PDF vào transcript (bản nháp)**. App lấy lớp chữ PDF nằm trong vùng rồi điền vào transcript; nó không tự xác nhận nhãn. Đọc lại trên PDF trước khi đổi trạng thái sang `verified`. Nếu PDF là ảnh scan hoặc vùng không có lớp chữ, app báo để bạn chép từ PDF gốc hoặc nhập theo ảnh.
 - Bấm **Áp dụng** để cập nhật transcript, trường, loại vùng được suy ra tự động, `row_id` và trạng thái; `Delete` xóa vùng; **Hoàn tác xóa** khôi phục vùng gần nhất; `Ctrl+S` lưu. Nút lấy chữ PDF cũng chỉ tạo thay đổi nháp; cần bấm **Lưu nhãn** để lưu vào annotation.
-- Bộ annotation active hiện chỉ giữ vùng do Duy/Vân tự vẽ và đã gán `field_key`; các crop tự động và vùng OCR cũ đã được loại khỏi dữ liệu active. Trạng thái `verified` và `needs_review` được giữ nguyên như trong ZIP của hai bạn.
+- Các vùng PaddleOCR/crop cũ chỉ là gợi ý. Nhãn trường/layout mặc định chưa rà, kể cả khi transcript đã được xác nhận cho bài toán nhận dạng chữ.
 - Với bảng hàng, dùng ID số `1`, `2`, `3`…; mọi ô thuộc cùng mặt hàng dùng chung số ID. ID bắt đầu lại từ `1` ở mỗi hóa đơn. Không gán ID cho vùng không thuộc dòng hàng.
 - Có thể để trường trống khi chưa chắc; trạng thái `verified` chỉ dùng khi đã đối chiếu PDF.
 - **Lịch sử** tìm annotation đã lưu và mở lại đúng trang/vùng. Các thay đổi lưu theo từng hóa đơn trong `data/annotations/by_invoice/`.
@@ -28,7 +28,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 
 ## Dữ liệu và phân công
 
-`data/pdfs/` chứa 208 PDF nguồn đã xác minh checksum; `data/manifests/` giữ SHA-256, split và phân công. Bản active hiện có 2.626 vùng thủ công từ Duy/Vân: 2.623 vùng đã gán trường (2.621 đã xác nhận, 2 đang chờ rà) và 3 vùng Duy tự vẽ còn thiếu trường, được giữ ở trạng thái `needs_review` để bổ sung. Đã loại 17.961 vùng OCR cũ và 1.560 crop tự động. Danh sách đối chiếu ZIP, checksum và các vùng chờ gán trường nằm trong `data/manifests/annotation_import_summary.json` và `reports/duy_import_audit.md`. Chủ repo không được chia phần gán nhãn; hai bạn phụ trách Duy 104 và Vân 104 hóa đơn theo manifest.
+`data/pdfs/` chứa snapshot các PDF included đã xác minh với manifest nguồn; `data/manifests/` giữ SHA-256, split và phân công. Snapshot hiện có 208 hóa đơn active, chia đều Duy 104 và Vân 104. Chủ repo không cần gán nhãn; chỉ tổng hợp PR/package khi hai bạn hoàn tất. Nếu chạy trên đúng bộ 40 hóa đơn tham chiếu, công cụ dùng Duy 1–20, Vân 21–40. Không chỉnh tay manifest để cùng hóa đơn thuộc hai người.
 
 Mỗi invoice có một JSON riêng. Người làm có thể gửi ZIP trực tiếp từ app; chủ repo chạy merge tool lần lượt cho từng ZIP (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
 
