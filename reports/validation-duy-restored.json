@@ -1,0 +1,36 @@
+{
+  "valid": true,
+  "invoice_count": 208,
+  "annotation_count": 2626,
+  "split_invoice_counts": {
+    "val": 41,
+    "train": 126,
+    "test": 41
+  },
+  "assignment_invoice_counts": {
+    "duy": 104,
+    "van": 104
+  },
+  "annotation_status_counts": {
+    "verified": 2621,
+    "needs_review": 5
+  },
+  "field_counts": {
+    "seller_name": 118,
+    "seller_tax_code": 125,
+    "invoice_date": 104,
+    "invoice_number": 112,
+    "total_amount": 125,
+    "item_description": 460,
+    "unit": 405,
+    "quantity": 360,
+    "unit_price": 342,
+    "tax_rate": 122,
+    "line_total": 350,
+    "unassigned": 3
+  },
+  "errors": [],
+  "warnings": [
+    "Trường dòng hàng chưa có row_id: HD_034[4]"
+  ]
+}

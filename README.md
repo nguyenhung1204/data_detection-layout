@@ -28,7 +28,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 
 ## Dữ liệu và phân công
 
-`data/pdfs/` chứa 208 PDF nguồn đã xác minh checksum; `data/manifests/` giữ SHA-256, split và phân công. Hai ZIP của Duy/Vân đã được tổng hợp thành 2.623 vùng manual có trường (2.621 đã xác nhận, 2 đang chờ rà). Dữ liệu active không còn các 17.961 vùng OCR cũ, 1.560 crop tự động hoặc 6 vùng chưa gán trường. Danh sách import và checksum ZIP nguồn nằm trong `data/manifests/annotation_import_summary.json`. Chủ repo không được chia phần gán nhãn; hai bạn phụ trách Duy 104 và Vân 104 hóa đơn theo manifest.
+`data/pdfs/` chứa 208 PDF nguồn đã xác minh checksum; `data/manifests/` giữ SHA-256, split và phân công. Bản active hiện có 2.626 vùng thủ công từ Duy/Vân: 2.623 vùng đã gán trường (2.621 đã xác nhận, 2 đang chờ rà) và 3 vùng Duy tự vẽ còn thiếu trường, được giữ ở trạng thái `needs_review` để bổ sung. Đã loại 17.961 vùng OCR cũ và 1.560 crop tự động. Danh sách đối chiếu ZIP, checksum và các vùng chờ gán trường nằm trong `data/manifests/annotation_import_summary.json` và `reports/duy_import_audit.md`. Chủ repo không được chia phần gán nhãn; hai bạn phụ trách Duy 104 và Vân 104 hóa đơn theo manifest.
 
 Mỗi invoice có một JSON riêng. Người làm có thể gửi ZIP trực tiếp từ app; chủ repo chạy merge tool lần lượt cho từng ZIP (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
 

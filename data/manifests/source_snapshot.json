@@ -13,14 +13,16 @@
     "van": 104
   },
   "note": "All active invoices are assigned to Duy or Vân. OCR/text recognition provenance is separate from field/layout review; imported candidates start with field_status=needs_review unless rejected.",
-  "active_annotation_policy": "Keep only Duy/Vân annotations with source=manual and non-empty field_key; omit legacy OCR candidates, automatic proposals, and unassigned manual regions.",
-  "active_annotation_count": 2623,
+  "active_annotation_policy": "Keep Duy/Vân manually drawn regions with field_key; additionally restore Duy manual regions without field_key as needs_review so they can be completed. Omit legacy OCR candidates and automatic crop proposals.",
+  "active_annotation_count": 2626,
   "active_annotation_status_counts": {
     "verified": 2621,
-    "needs_review": 2
+    "needs_review": 5
   },
   "friend_annotation_import_zip_sha256": {
-    "duy": "72d6cd11dc1272c522ef18155e5427ab52cd7f9232c05f2f23e1818403b97653",
+    "duy": "f0610faa21b10401e678938448847efaea13f2caca71e55db1e05982387e549a",
     "van": "aefe8b934a07012ed363ecf170592f11f1c5e3018cf84a9a8a708b2ec7f10c18"
-  }
+  },
+  "active_field_labeled_count": 2623,
+  "active_unassigned_manual_count": 3
 }
