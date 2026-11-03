@@ -20,7 +20,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 - Chỉ gán 11 trường mục tiêu trong bộ chọn **Trường cần nhận diện**. Khung nên ôm sát giá trị, không lấy nhãn mô tả hoặc tiêu đề cột; loại vùng bố cục được suy ra tự động từ trường.
 - Để đỡ gõ transcript, sau khi vẽ/chọn vùng bấm **Chép chữ trong vùng PDF vào transcript (bản nháp)**. App lấy lớp chữ PDF nằm trong vùng rồi điền vào transcript; nó không tự xác nhận nhãn. Đọc lại trên PDF trước khi đổi trạng thái sang `verified`. Nếu PDF là ảnh scan hoặc vùng không có lớp chữ, app báo để bạn chép từ PDF gốc hoặc nhập theo ảnh.
 - Bấm **Áp dụng** để cập nhật transcript, trường, loại vùng được suy ra tự động, `row_id` và trạng thái; `Delete` xóa vùng; **Hoàn tác xóa** khôi phục vùng gần nhất; `Ctrl+S` lưu. Nút lấy chữ PDF cũng chỉ tạo thay đổi nháp; cần bấm **Lưu nhãn** để lưu vào annotation.
-- Bộ active hiện có 4.075 vùng: 2.626 vùng manual của Duy/Vân và 1.449 crop đề xuất tự động do Duy phụ trách, đã xác nhận trường/bố cục (`field_status=verified`). Các crop tự động còn chờ rà/bị loại (110/1) và 17.961 vùng OCR review cũ không được đưa vào app. Nguồn `automatic_crop_proposal` được giữ nguyên để phân biệt với vùng Duy tự vẽ; dữ liệu không tự khẳng định transcript OCR là nhãn chuẩn.
+- Bộ active hiện có 4,076 vùng trên 188 hóa đơn: 2,627 vùng thủ công và 1,449 crop đề xuất tự động; `field_status` hiện là {'verified': 4076}. 20 hóa đơn không có vùng đã được loại khỏi active; xem `data/manifests/excluded_unannotated_invoices_20261103.csv` và `reports/dataset_readiness_20261103.md`. Transcript là trạng thái riêng, không tự được xác nhận theo field/layout.
 - Với bảng hàng, dùng ID số `1`, `2`, `3`…; mọi ô thuộc cùng mặt hàng dùng chung số ID. ID bắt đầu lại từ `1` ở mỗi hóa đơn. Không gán ID cho vùng không thuộc dòng hàng.
 - Có thể để trường trống khi chưa chắc; trạng thái `verified` chỉ dùng khi đã đối chiếu PDF.
 - **Lịch sử** tìm annotation đã lưu và mở lại đúng trang/vùng. Các thay đổi lưu theo từng hóa đơn trong `data/annotations/by_invoice/`.
@@ -28,7 +28,7 @@ App chạy cục bộ trên Windows để gán bbox, transcript nhìn thấy, kh
 
 ## Dữ liệu và phân công
 
-`data/pdfs/` chứa 208 PDF nguồn đã xác minh checksum; `data/manifests/` giữ SHA-256, split và phân công. Bản active hiện có 2.626 vùng thủ công từ Duy/Vân: 2.623 vùng đã gán trường (2.621 đã xác nhận, 2 đang chờ rà) và 3 vùng Duy tự vẽ còn thiếu trường, được giữ ở trạng thái `needs_review` để bổ sung. Đã loại 17.961 vùng OCR cũ và 1.560 crop tự động. Danh sách đối chiếu ZIP, checksum và các vùng chờ gán trường nằm trong `data/manifests/annotation_import_summary.json` và `reports/duy_import_audit.md`. Chủ repo không được chia phần gán nhãn; hai bạn phụ trách Duy 104 và Vân 104 hóa đơn theo manifest.
+`data/pdfs/` chứa 188 PDF active đã xác minh checksum; manifest giữ SHA-256, split và phân công. Hiện có 4,076 vùng (2,627 manual, 1,449 auto proposal), toàn bộ `field_status=verified`; transcript vẫn là nhãn độc lập. Phân công active hiện tại: Duy 91 hóa đơn, Vân 97 hóa đơn. 20 hóa đơn 0 vùng đã được loại; lịch sử loại ở manifest riêng. Các báo cáo import cũ chỉ phản ánh thời điểm import; trạng thái hiện tại nằm trong `reports/dataset_readiness_20261103.md`.
 
 Mỗi invoice có một JSON riêng. Người làm có thể gửi ZIP trực tiếp từ app; chủ repo chạy merge tool lần lượt cho từng ZIP (xem `CONTRIBUTING.md`). Xung đột hai bản sửa sẽ được báo; merge tool tạo backup trước khi ghi.
 
@@ -48,7 +48,7 @@ Mở `notebooks/Prepare_Field_Layout_Data_Colab.ipynb`, chạy các ô theo th�
 
 ## Giới hạn và dữ liệu
 
-- Bộ 208 hóa đơn là snapshot của manifest ngày 02/11/2026; kiểm tra lại nguồn trước khi cập nhật.
+- Nguồn ban đầu có 208 hóa đơn; active hiện có 188 sau khi loại 20 hóa đơn không có vùng annotation. `data/manifests/source_snapshot.json` là snapshot nhập dữ liệu lịch sử, còn `invoice_manifest.csv` là danh sách active hiện tại.
 - Nhiều invoice source URL còn trống trong manifest nguồn; provenance được giữ như có sẵn, không tự bịa nguồn/license.
 - `field_status=verified` là xác nhận trường/layout; `transcript_status=verified` chỉ xác nhận chữ. Không suy ra cái này từ cái kia.
 - Bộ 40 hóa đơn đã tham gia đánh giá OCR trước đây; không xem chúng là tập test độc lập.

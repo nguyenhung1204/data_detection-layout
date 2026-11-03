@@ -8,7 +8,7 @@
 4. Lưu thường xuyên; dữ liệu nằm trong `data/annotations/by_invoice/<invoice_id>.json`.
 5. Khi làm xong phần được giao, chọn đúng tên mình ở bộ lọc **Người phụ trách**, bấm **Tải ZIP phần của tôi** trên thanh đầu trang rồi gửi nguyên file ZIP cho chủ repo. Lưu nhãn trước khi xuất; ZIP chỉ chứa JSON nhãn và manifest, không chứa PDF.
 
-Phân công lấy từ `data/manifests/assignment_manifest.csv`; snapshot hiện tại gồm 208 hóa đơn, chia đều Duy 104 và Vân 104. Chủ repo không nhận phần gán nhãn. Dùng manifest làm nguồn chuẩn, không tự chia lại.
+Phân công lấy từ `data/manifests/assignment_manifest.csv`; active hiện tại gồm 188 hóa đơn: Duy 91 và Vân 97. 20 hóa đơn không có vùng đã được loại khỏi active. Chủ repo không nhận phần gán nhãn. Dùng manifest làm nguồn chuẩn, không tự chia lại.
 
 ## Chủ repo: nhận và tổng hợp kết quả
 
