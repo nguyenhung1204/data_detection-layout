@@ -14,20 +14,20 @@
       "pdf_sha256": "e5f3c35070bf7c11824a9eb917b60f6cf3a52ee120a8566acad278124b3afbf6",
       "page": 1,
       "bbox_px": [
-        211,
-        697,
-        2253,
-        831
+        231,
+        705,
+        2217,
+        832
       ],
       "page_size_px": [
         2480,
         3509
       ],
       "bbox_norm": [
-        0.08521252262604542,
-        0.19875464371208704,
-        0.9085976850025144,
-        0.2368952839280051
+        0.09319809652376576,
+        0.20101493839073634,
+        0.8939163561909138,
+        0.23721095953644597
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T14:40:58+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              211,
+              697,
+              2253,
+              831
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CHI NHÁNHTẠI SÓC TRĂNG - CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI PHƯỢNG HOÀNG",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-cfc085da-013c-4f8c-aa70-e057d938893d",
@@ -502,5 +519,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T14:40:58+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

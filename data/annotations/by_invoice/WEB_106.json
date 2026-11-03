@@ -450,7 +450,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T02:12:42+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-0d84f3cc-92d7-4bf9-935a-2e8894535ada",
+      "invoice_id": "WEB_106",
+      "pdf": "data/pdfs/WEB_106.pdf",
+      "pdf_sha256": "f50a315cff735eac11b54abd1fe5bb2d5468fcc6e6d1c1d62b9e0e01417f7cd1",
+      "page": 1,
+      "bbox_px": [
+        407,
+        793,
+        800,
+        854
+      ],
+      "page_size_px": [
+        2479,
+        3508
+      ],
+      "bbox_norm": [
+        0.16426317442744146,
+        0.22618037765938667,
+        0.32290580810650665,
+        0.24335594377620384
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "Bùi Thanh Quang",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:12:42+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

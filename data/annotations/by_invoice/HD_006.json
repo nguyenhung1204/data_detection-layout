@@ -14,20 +14,20 @@
       "pdf_sha256": "c7eec14d221190a3359b70466a3655d0b87157bd43dd0caf39217ba156276995",
       "page": 1,
       "bbox_px": [
-        134,
-        409,
-        1010,
-        558
+        144,
+        416,
+        965,
+        557
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.0541414494093719,
-        0.11682738448986199,
-        0.40737124480536113,
-        0.15906130914644673
+        0.05822441344701943,
+        0.11874020128102705,
+        0.3892782228614102,
+        0.15888644412808411
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:25:10+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              134,
+              409,
+              1010,
+              558
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CHI NHÁNH CÔNG TY CỔ PHẦN THẾ GIỚI DI ĐỘNG - CỬA HÀNG ĐIỆN MÁY XANH TRƯỜNG CHINH",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-df9c1a67-a1d5-4ff4-ad17-219552bc458b",
@@ -128,20 +145,20 @@
       "pdf_sha256": "c7eec14d221190a3359b70466a3655d0b87157bd43dd0caf39217ba156276995",
       "page": 1,
       "bbox_px": [
-        286,
-        750,
-        568,
-        807
+        306,
+        766,
+        476,
+        799
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.1154660624937823,
-        0.21402325114022125,
-        0.22912102008681798,
-        0.23022254335686
+        0.12337449325433299,
+        0.21860598199687872,
+        0.19210643300288865,
+        0.22782082690807076
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_tax_code",
@@ -156,8 +173,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:25:10+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              286,
+              750,
+              568,
+              807
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0303217354",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-6ff245ab-f881-4244-ba65-7f026d5581c1",
@@ -426,5 +460,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:25:10+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

@@ -195,9 +195,9 @@
         0.4950015
       ],
       "annotation_kind": "text_region",
-      "field_key": "quantity",
+      "field_key": "unit_price",
       "layout_key": "item_table",
-      "row_id": "2",
+      "row_id": "3",
       "transcript": "100,000",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -207,7 +207,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:46:04+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-03T02:46:04+00:00",
@@ -223,6 +223,38 @@
             "row_id": "2",
             "transcript": "100,000",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1730,
+              1570,
+              1890,
+              1634
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "100,000",
+            "field_status": "verified"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1730,
+              1570,
+              1890,
+              1634
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "100,000",
+            "field_status": "verified"
           }
         }
       ]
@@ -690,7 +722,7 @@
         0.4946986
       ],
       "annotation_kind": "text_region",
-      "field_key": "unit_price",
+      "field_key": "quantity",
       "layout_key": "item_table",
       "row_id": "3",
       "transcript": "15",
@@ -702,7 +734,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:46:04+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-03T02:46:04+00:00",
@@ -718,6 +750,22 @@
             "row_id": "3",
             "transcript": "15",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1473,
+              1572,
+              1539,
+              1633
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "3",
+            "transcript": "15",
+            "field_status": "verified"
           }
         }
       ]
@@ -1023,5 +1071,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:46:04+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

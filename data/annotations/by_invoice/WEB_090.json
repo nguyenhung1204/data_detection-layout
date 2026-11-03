@@ -2397,7 +2397,7 @@
       "annotation_kind": "text_region",
       "field_key": "tax_rate",
       "layout_key": "item_table",
-      "row_id": "1",
+      "row_id": "3",
       "transcript": "10%",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -2407,8 +2407,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:02:58+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1999,
+              1849,
+              2082,
+              1904
+            ],
+            "field_key": "tax_rate",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "10%",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-2553bc69-d79d-4405-ac43-8d957c663afc",
@@ -2473,7 +2490,7 @@
       "annotation_kind": "text_region",
       "field_key": "tax_rate",
       "layout_key": "item_table",
-      "row_id": "1",
+      "row_id": "4",
       "transcript": "8%",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -2483,8 +2500,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:02:58+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1994,
+              1924,
+              2074,
+              1987
+            ],
+            "field_key": "tax_rate",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "8%",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-6477113f-312c-4d88-96c1-10d24a1cee23",
@@ -2587,7 +2621,7 @@
       "annotation_kind": "text_region",
       "field_key": "line_total",
       "layout_key": "item_table",
-      "row_id": "1",
+      "row_id": "2",
       "transcript": "170.000",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -2597,8 +2631,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:02:58+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1792,
+              1774,
+              1932,
+              1834
+            ],
+            "field_key": "line_total",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "170.000",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-b63ee769-3cca-4bba-b6e1-1507a4519253",
@@ -2663,7 +2714,7 @@
       "annotation_kind": "text_region",
       "field_key": "item_description",
       "layout_key": "item_table",
-      "row_id": "1",
+      "row_id": "4",
       "transcript": "Bìa nút A5",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -2673,8 +2724,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:02:58+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              438,
+              1919,
+              632,
+              1984
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "Bìa nút A5",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-dc22dbf7-69ce-4581-b53b-e702f2bfb7a2",
@@ -2713,7 +2781,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T02:02:58+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-6c947daf-c3a4-4591-b41c-e86013c55b96",
+      "invoice_id": "WEB_090",
+      "pdf": "data/pdfs/WEB_090.pdf",
+      "pdf_sha256": "b40e1cbdf551d6ceaf3d3a20b590fd6ffdce170e02284e332bc2a4d5710846a0",
+      "page": 2,
+      "bbox_px": [
+        2204,
+        2412,
+        2388,
+        2453
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8885216202075849,
+        0.6874914984673438,
+        0.9630542954453942,
+        0.6991025738796576
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "1.090.460",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:02:58+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

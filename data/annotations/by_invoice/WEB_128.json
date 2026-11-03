@@ -6238,7 +6238,83 @@
       "confidence": null,
       "updated_at": "2026-11-02T18:15:44+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-28c56f5c-c503-4ea5-a03d-ae27e76a8d13",
+      "invoice_id": "WEB_128",
+      "pdf": "data/pdfs/WEB_128.pdf",
+      "pdf_sha256": "38edd98bb03d612dbe9765fbb0976d2f6bd1999b0b6ed0199506b3f75527fb30",
+      "page": 2,
+      "bbox_px": [
+        2226,
+        2590,
+        2378,
+        2631
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.897592473903624,
+        0.7380486899622829,
+        0.9586765034138655,
+        0.7498491693709638
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "29",
+      "transcript": "190.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "van",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
+    },
+    {
+      "annotation_id": "region-9f457423-cc2b-409c-b49e-c0a7d02313a0",
+      "invoice_id": "WEB_128",
+      "pdf": "data/pdfs/WEB_128.pdf",
+      "pdf_sha256": "38edd98bb03d612dbe9765fbb0976d2f6bd1999b0b6ed0199506b3f75527fb30",
+      "page": 3,
+      "bbox_px": [
+        2188,
+        1848,
+        2377,
+        1889
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.882079799107143,
+        0.526647282906213,
+        0.9586596802783612,
+        0.5384596141534292
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "4.185.500",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "van",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-02T18:15:44+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

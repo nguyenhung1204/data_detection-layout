@@ -252,7 +252,7 @@
       "annotation_kind": "text_region",
       "field_key": "quantity",
       "layout_key": "item_table",
-      "row_id": "2",
+      "row_id": "1",
       "transcript": "4",
       "transcript_status": "needs_review",
       "recognition_status": "manual",
@@ -262,7 +262,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T17:12:27+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-02T17:12:02+00:00",
@@ -278,6 +278,22 @@
             "row_id": "2",
             "transcript": "4",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1569,
+              1024,
+              1595,
+              1070
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "2",
+            "transcript": "4",
+            "field_status": "verified"
           }
         }
       ]
@@ -580,7 +596,7 @@
         0.30485350067167316
       ],
       "annotation_kind": "text_region",
-      "field_key": "quantity",
+      "field_key": "tax_rate",
       "layout_key": "item_table",
       "row_id": "1",
       "transcript": "10 %",
@@ -592,7 +608,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T17:12:27+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-02T17:12:02+00:00",
@@ -608,6 +624,22 @@
             "row_id": "1",
             "transcript": "10",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1363,
+              1024,
+              1447,
+              1069
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "10 %",
+            "field_status": "verified"
           }
         }
       ]
@@ -841,5 +873,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T17:12:27+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

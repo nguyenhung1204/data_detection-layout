@@ -14,20 +14,20 @@
       "pdf_sha256": "942de3ec155105b898f17468b379fad46327b69c4c9a6e305968034babef6b22",
       "page": 1,
       "bbox_px": [
-        106,
+        111,
         543,
-        1108,
-        667
+        1027,
+        646
       ],
       "page_size_px": [
         2480,
         3601
       ],
       "bbox_norm": [
-        0.042694200315174666,
-        0.1508788222645271,
-        0.44661893309995604,
-        0.18522929311930325
+        0.044813867649110425,
+        0.15084601056134259,
+        0.4141680774849002,
+        0.17945047053584345
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:19:52+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              106,
+              543,
+              1108,
+              667
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "Chi Nhánh Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT Tại Hà Nội",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-e93fee0f-c0ce-425c-8a84-286ed60f6a15",
@@ -654,5 +671,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:19:52+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

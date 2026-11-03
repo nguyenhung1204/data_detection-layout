@@ -484,7 +484,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T02:41:49+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-fa3e9a95-753e-4b63-99bb-ac134267755b",
+      "invoice_id": "WEB_200",
+      "pdf": "data/pdfs/WEB_200.pdf",
+      "pdf_sha256": "d32ea547dce413900098865c2a924d31d362690f70fe6a2048694ec71260e550",
+      "page": 1,
+      "bbox_px": [
+        459,
+        751,
+        1174,
+        810
+      ],
+      "page_size_px": [
+        2481,
+        3508
+      ],
+      "bbox_norm": [
+        0.18511936831710313,
+        0.21421816244680575,
+        0.4733679216131112,
+        0.230846462310435
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "Công ty TNHH Ô Tô Toyotsu Samco",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:41:49+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

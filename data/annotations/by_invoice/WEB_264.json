@@ -42,7 +42,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -97,7 +97,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -152,7 +152,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -207,7 +207,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -262,7 +262,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -317,7 +317,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -372,7 +372,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -427,7 +427,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -482,7 +482,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T03:11:06+00:00",
+      "updated_at": "2026-11-03T22:06:12+00:00",
       "history": [
         {
           "at": "2026-11-03T03:10:51+00:00",
@@ -501,7 +501,45 @@
           }
         }
       ]
+    },
+    {
+      "annotation_id": "region-e0391043-27a2-4d2e-8c6c-6df19e623839",
+      "invoice_id": "WEB_264",
+      "pdf": "WEB_264.pdf",
+      "pdf_sha256": "7258ae8707f7667af2e3de9c311cea8991153b664d99629d00d873a59268898e",
+      "page": 1,
+      "bbox_px": [
+        521,
+        205,
+        894,
+        266
+      ],
+      "page_size_px": [
+        1896,
+        1563
+      ],
+      "bbox_norm": [
+        0.2750217580504787,
+        0.13144176839326954,
+        0.47171453437771976,
+        0.17050481611885515
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "invoice_date",
+      "layout_key": "invoice_header",
+      "row_id": "",
+      "transcript": "Ngày 06/10/2017 ",
+      "transcript_status": "needs_review",
+      "recognition_status": "manual",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "manual",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T22:06:12+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T03:11:06+00:00"
+  "updated_at": "2026-11-03T22:06:12+00:00"
 }

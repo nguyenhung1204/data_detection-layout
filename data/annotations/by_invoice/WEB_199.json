@@ -128,9 +128,9 @@
       "pdf_sha256": "0d583cb0ceefb232f17835dd859034e6f32f92c68f102a96ad59892fcadfa84f",
       "page": 1,
       "bbox_px": [
-        452,
-        807,
-        709,
+        462,
+        810,
+        698,
         850
       ],
       "page_size_px": [
@@ -138,10 +138,10 @@
         3508
       ],
       "bbox_norm": [
-        0.18231815468894982,
-        0.2299886630854218,
-        0.285847980610668,
-        0.24242245758846745
+        0.1862284063736483,
+        0.23080006168616438,
+        0.28116249400357174,
+        0.24232955675638213
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_tax_code",
@@ -156,8 +156,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T18:32:23+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              452,
+              807,
+              709,
+              850
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0302412105",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-818990da-d792-43c5-ae1d-49ee3fef10ef",
@@ -578,5 +595,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T18:32:23+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

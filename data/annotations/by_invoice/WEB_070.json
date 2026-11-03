@@ -14,20 +14,20 @@
       "pdf_sha256": "ed0d4700ac41cb6407b390826ad9c2433e5f2bd9666e1482c6f3d194d6ff6647",
       "page": 1,
       "bbox_px": [
-        118,
-        460,
-        1031,
-        610
+        144,
+        462,
+        959,
+        608
       ],
       "page_size_px": [
         2480,
         3505
       ],
       "bbox_norm": [
-        0.04753398934408302,
-        0.13126891113646763,
-        0.41574858266506615,
-        0.1741156870283132
+        0.05822441344701943,
+        0.1318793068612515,
+        0.38680429872144173,
+        0.17347152408776753
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T16:11:35+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              118,
+              460,
+              1031,
+              610
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "ĐỊA ĐIỂM KINH DOANH CHI NHÁNH CÔNG TY CỔ PHẦN THƯƠNG MẠI BÁCH HÓA XANH - CỬA HÀNG BÁCH HÓA XANH BÀ RỊA VŨNG TÀU SỐ 29",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-03a9b580-e2e4-4b0a-bc0e-f338fe319adb",
@@ -426,5 +443,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T16:11:35+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

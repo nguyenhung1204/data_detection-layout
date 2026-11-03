@@ -525,7 +525,7 @@
         0.5846636
       ],
       "annotation_kind": "text_region",
-      "field_key": "unit_price",
+      "field_key": "quantity",
       "layout_key": "item_table",
       "row_id": "1",
       "transcript": "211.2",
@@ -537,7 +537,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-03T02:51:09+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-03T02:51:09+00:00",
@@ -553,6 +553,22 @@
             "row_id": "1",
             "transcript": "211.2",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1368,
+              1991,
+              1500,
+              2051
+            ],
+            "field_key": "unit_price",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "211.2",
+            "field_status": "verified"
           }
         }
       ]
@@ -782,5 +798,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:51:09+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

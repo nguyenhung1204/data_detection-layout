@@ -4159,7 +4159,45 @@
       "confidence": null,
       "updated_at": "2026-11-02T17:06:17+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-a6d29c38-d447-461d-ba87-b5be5c234012",
+      "invoice_id": "WEB_056",
+      "pdf": "data/pdfs/WEB_056.pdf",
+      "pdf_sha256": "545c744091b9f513ae3ffec32b61e5e7625f7cd6689aa1176737d48ff2ced289",
+      "page": 1,
+      "bbox_px": [
+        180,
+        1820,
+        435,
+        1862
+      ],
+      "page_size_px": [
+        2363,
+        3390
+      ],
+      "bbox_norm": [
+        0.07624870903094288,
+        0.5367370092959842,
+        0.1842459892889806,
+        0.5493615605312561
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "item_description",
+      "layout_key": "item_table",
+      "row_id": "8",
+      "transcript": "Nộm hải sản lớn",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-02T17:06:17+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

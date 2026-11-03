@@ -3115,7 +3115,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T02:39:26+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-496977c5-1ed8-4f8d-8c26-b12f0efb7b03",
+      "invoice_id": "WEB_193",
+      "pdf": "data/pdfs/WEB_193.pdf",
+      "pdf_sha256": "cdc6929ae701485ad02c6ec97547586a9d62aa22f29f3cce2b979893d6e6edad",
+      "page": 1,
+      "bbox_px": [
+        680,
+        405,
+        1176,
+        459
+      ],
+      "page_size_px": [
+        2483,
+        3513
+      ],
+      "bbox_norm": [
+        0.274054529176008,
+        0.11536326453795746,
+        0.47361993420837684,
+        0.13061613291077187
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "TRẦN THỊ THÚY PHƯỢNG",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:39:26+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

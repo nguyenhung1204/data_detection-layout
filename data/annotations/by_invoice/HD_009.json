@@ -14,20 +14,20 @@
       "pdf_sha256": "8e8c83b30efe3dfd43aa9eb57b5da932dde6b405af6d8e1c6745662408e2135e",
       "page": 1,
       "bbox_px": [
-        77,
-        537,
-        1085,
-        661
+        111,
+        543,
+        1023,
+        644
       ],
       "page_size_px": [
         2480,
         3601
       ],
       "bbox_norm": [
-        0.03124693119615626,
-        0.14918946078012232,
-        0.437624664524171,
-        0.18353993163489848
+        0.044813867649110425,
+        0.15084601056134259,
+        0.4126441732454701,
+        0.1788975513599537
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:30:16+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              77,
+              537,
+              1085,
+              661
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CHI NHÁNH CÔNG TY CỔ PHẦN BÁN LẺ KỸ THUẬT SỐ FPT TẠI HÀ NỘI",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-b109bc63-fd47-470f-b3c7-59465b22de8e",
@@ -882,5 +899,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:30:16+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

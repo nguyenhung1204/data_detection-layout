@@ -14,20 +14,20 @@
       "pdf_sha256": "7b6c878d1f90a80cc260fee484e2294dc7b21b35705286ce0e180410fadd7ea1",
       "page": 1,
       "bbox_px": [
-        550,
-        493,
-        1911,
-        547
+        546,
+        486,
+        1781,
+        554
       ],
       "page_size_px": [
         2480,
         3509
       ],
       "bbox_norm": [
-        0.22176201845711796,
-        0.14038790164079573,
-        0.7704129222253567,
-        0.15599091011916683
+        0.22014211754037552,
+        0.13847724447001186,
+        0.7181315671776523,
+        0.15787315763713627
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:42:22+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              550,
+              493,
+              1911,
+              547
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY TNHH TÍCH HỢP HỆ THỐNG THẾ MINH",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-8aa3fd21-6804-48c0-8662-976a9c8ce88e",
@@ -128,20 +145,20 @@
       "pdf_sha256": "7b6c878d1f90a80cc260fee484e2294dc7b21b35705286ce0e180410fadd7ea1",
       "page": 1,
       "bbox_px": [
-        515,
-        564,
-        832,
-        626
+        523,
+        576,
+        782,
+        618
       ],
       "page_size_px": [
         2480,
         3509
       ],
       "bbox_norm": [
-        0.2078618288941509,
-        0.1606140017270819,
-        0.335417016099796,
-        0.1785285418567138
+        0.21072707283597034,
+        0.16417463999406176,
+        0.3151654124540441,
+        0.1761805875148456
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_tax_code",
@@ -156,8 +173,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:42:22+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              515,
+              564,
+              832,
+              626
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0105081454",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-c0cf6ad0-fb64-4f68-affb-ba222347de7d",
@@ -426,5 +460,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:42:22+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

@@ -90,20 +90,20 @@
       "pdf_sha256": "c9fd0d12166e0f7727be6e3a1b31b61d119271c9d6ee8ed273bbc305610042d6",
       "page": 1,
       "bbox_px": [
-        744,
-        787,
-        1583,
-        862
+        758,
+        795,
+        1550,
+        854
       ],
       "page_size_px": [
         2550,
         3301
       ],
       "bbox_norm": [
-        0.29170816725920423,
-        0.2383811516061088,
-        0.6208548602209015,
-        0.26101599033002804
+        0.2973342335021574,
+        0.24079315555456912,
+        0.60792247418173,
+        0.2588313086923927
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -118,8 +118,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T18:49:36+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              744,
+              787,
+              1583,
+              862
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "Công ty TNHH Cơ Điện Thịnh Phát",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-01e6df35-64e9-4347-b5d3-72c72f7bf6d3",
@@ -388,5 +405,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T18:49:36+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

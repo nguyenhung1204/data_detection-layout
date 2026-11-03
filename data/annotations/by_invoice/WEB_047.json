@@ -90,20 +90,20 @@
       "pdf_sha256": "7d6bfa48b63a4b0cf4baa090f11af6c12139761e8f9b907774017b8c746ff4c3",
       "page": 1,
       "bbox_px": [
-        568,
-        475,
-        1123,
-        533
+        575,
+        476,
+        1086,
+        522
       ],
       "page_size_px": [
         2480,
         3509
       ],
       "bbox_norm": [
-        0.22919967977010602,
-        0.13526054447609032,
-        0.45286320441535044,
-        0.1518274408065754
+        0.23171335736443013,
+        0.13565338990127673,
+        0.43802795102415965,
+        0.14886880485915233
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -118,8 +118,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T19:09:54+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              568,
+              475,
+              1123,
+              533
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY CỔ PHẦN HINOKO",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-91302953-6300-4034-8b76-45c8aabb74a8",
@@ -3844,7 +3861,45 @@
       "confidence": null,
       "updated_at": "2026-11-02T19:09:54+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-20e90ac2-4e75-4c71-b776-a088c17f53ea",
+      "invoice_id": "WEB_047",
+      "pdf": "data/pdfs/WEB_047.pdf",
+      "pdf_sha256": "7d6bfa48b63a4b0cf4baa090f11af6c12139761e8f9b907774017b8c746ff4c3",
+      "page": 1,
+      "bbox_px": [
+        2166,
+        2373,
+        2296,
+        2411
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.873373723903624,
+        0.6764013518199785,
+        0.9259591977415966,
+        0.6871713374266998
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "line_total",
+      "layout_key": "item_table",
+      "row_id": "9",
+      "transcript": "109.242",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "van",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-02T19:09:54+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

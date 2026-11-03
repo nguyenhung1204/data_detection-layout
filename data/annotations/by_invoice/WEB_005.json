@@ -220,7 +220,7 @@
         0.3874592836633419
       ],
       "annotation_kind": "text_region",
-      "field_key": "item_description",
+      "field_key": "unit",
       "layout_key": "item_table",
       "row_id": "1",
       "transcript": "Cái",
@@ -232,8 +232,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T17:39:35+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1223,
+              1297,
+              1316,
+              1360
+            ],
+            "field_key": "item_description",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "Cái",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-eac6611a-210c-422e-8972-88a798887b40",
@@ -502,5 +519,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T17:39:35+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

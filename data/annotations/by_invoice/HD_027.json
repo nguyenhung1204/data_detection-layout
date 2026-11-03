@@ -14,20 +14,20 @@
       "pdf_sha256": "ee9fb4ff642b7101288d8bb9e6c11ec63236bde89e5b651d763bfa1abb4364c2",
       "page": 1,
       "bbox_px": [
-        557,
-        307,
-        1630,
-        384
+        562,
+        322,
+        1595,
+        366
       ],
       "page_size_px": [
         3508,
         2481
       ],
       "bbox_norm": [
-        0.15880213842662258,
-        0.12362806935999297,
-        0.46460755035081086,
-        0.15484366774758515
+        0.16017641955404863,
+        0.12985554770611488,
+        0.4545792425603845,
+        0.14764018565579087
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T14:28:36+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              557,
+              307,
+              1630,
+              384
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY TNHH MAPPLE MITRA ADIPERKASA VIỆT NAM",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-f1f029ae-e4c9-4bc3-a88a-72835357c29a",
@@ -52,20 +69,20 @@
       "pdf_sha256": "ee9fb4ff642b7101288d8bb9e6c11ec63236bde89e5b651d763bfa1abb4364c2",
       "page": 1,
       "bbox_px": [
-        511,
-        525,
-        818,
-        585
+        515,
+        550,
+        715,
+        582
       ],
       "page_size_px": [
         3508,
         2481
       ],
       "bbox_norm": [
-        0.14571956231187683,
-        0.21149411950446276,
-        0.2332093276257787,
-        0.23577290881233973
+        0.1466791960022973,
+        0.2215957772458614,
+        0.20389158280241987,
+        0.234400714088339
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_tax_code",
@@ -80,8 +97,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T14:28:36+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              511,
+              525,
+              818,
+              585
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0316998320",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-00b10215-cc29-40d1-b28b-d2ec19ea0bae",
@@ -426,5 +460,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T14:28:36+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

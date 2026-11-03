@@ -14,20 +14,20 @@
       "pdf_sha256": "cac43f858ca864edb5ed744e04cfd13eec2742fcd32b5de6876e58e1ace436e6",
       "page": 1,
       "bbox_px": [
-        712,
-        564,
-        2142,
-        620
+        720,
+        563,
+        2105,
+        618
       ],
       "page_size_px": [
         2480,
         3509
       ],
       "bbox_norm": [
-        0.2871750191797737,
-        0.16061400349616897,
-        0.8636263020739469,
-        0.17679488073465854
+        0.2903591326783154,
+        0.16038690577539852,
+        0.8489800788893932,
+        0.17605262158557314
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:55:51+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              712,
+              564,
+              2142,
+              620
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ CÔNG NGHỆ KỸ THUẬT D2TECH",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-3dda4002-e76e-4934-ab5b-f1208ddfdba0",
@@ -768,5 +785,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:55:51+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

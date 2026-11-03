@@ -258,7 +258,7 @@
         0.4650922969601578
       ],
       "annotation_kind": "text_region",
-      "field_key": "unit",
+      "field_key": "item_description",
       "layout_key": "item_table",
       "row_id": "3",
       "transcript": "EF-DX915UBEGWW Baodakèmbànphím (Padchuột) TabS9Ult,Đen- IMEI: RF7X600T77FCIS",
@@ -270,8 +270,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T17:36:45+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              168,
+              1934,
+              739,
+              2180
+            ],
+            "field_key": "unit",
+            "layout_key": "item_table",
+            "row_id": "3",
+            "transcript": "EF-DX915UBEGWW Baodakèmbànphím (Padchuột) TabS9Ult,Đen- IMEI: RF7X600T77FCIS",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-c60c39e9-8538-40ae-9159-6a94a3044955",
@@ -842,7 +859,45 @@
       "confidence": null,
       "updated_at": "2026-11-02T17:36:45+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-b528c115-c6bd-4679-bff2-7167790ed78f",
+      "invoice_id": "WEB_110",
+      "pdf": "data/pdfs/WEB_110.pdf",
+      "pdf_sha256": "67322251e902088b2bfd52338fa8cd0226dfa956e66a683f236f72fe9cfa40b9",
+      "page": 1,
+      "bbox_px": [
+        1189,
+        1807,
+        1336,
+        1851
+      ],
+      "page_size_px": [
+        2500,
+        4688
+      ],
+      "bbox_norm": [
+        0.47577218627929685,
+        0.38538939753930324,
+        0.5345971781412759,
+        0.3949126817853521
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "unit_price",
+      "layout_key": "item_table",
+      "row_id": "2",
+      "transcript": "422.727",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "val",
+      "assigned_to": "van",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-02T17:36:45+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

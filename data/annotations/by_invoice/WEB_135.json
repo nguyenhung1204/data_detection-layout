@@ -4076,7 +4076,45 @@
           }
         }
       ]
+    },
+    {
+      "annotation_id": "region-de0f85db-0519-4faf-a0cb-61e43ec6a61c",
+      "invoice_id": "WEB_135",
+      "pdf": "data/pdfs/WEB_135.pdf",
+      "pdf_sha256": "0ce62dc9ac3136875dded7d36cc26b2b052a66dffc6374a525a91af8bbc57fc1",
+      "page": 2,
+      "bbox_px": [
+        2044,
+        2392,
+        2261,
+        2429
+      ],
+      "page_size_px": [
+        2481,
+        3508
+      ],
+      "bbox_norm": [
+        0.823954257060445,
+        0.6817701442691304,
+        0.9112992549626435,
+        0.6924270334503302
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "262.386.000",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "test",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:35:16+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

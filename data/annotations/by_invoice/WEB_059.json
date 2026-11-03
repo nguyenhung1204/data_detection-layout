@@ -475,20 +475,20 @@
       "pdf_sha256": "6a2aacadcf9e892bb34f6a16ae043165d73ab46ac6f0ab095e49c90880a2edd5",
       "page": 1,
       "bbox_px": [
-        538,
-        637,
-        957,
-        693
+        546,
+        649,
+        933,
+        687
       ],
       "page_size_px": [
         2550,
         3301
       ],
       "bbox_norm": [
-        0.21111111111111114,
-        0.19307282092686784,
-        0.3752941256255106,
-        0.2100373650044761
+        0.2142032785851971,
+        0.1965008212002841,
+        0.3659345850726358,
+        0.2080109098800505
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_tax_code",
@@ -503,9 +503,26 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T17:08:38+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              538,
+              637,
+              957,
+              693
+            ],
+            "field_key": "seller_tax_code",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "0 1 0 2 8 0 7 5 4 7",
+            "field_status": "verified"
+          }
+        }
+      ]
     }
   ],
-  "updated_at": "2026-11-02T17:08:38+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

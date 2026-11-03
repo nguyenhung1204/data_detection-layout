@@ -195,7 +195,7 @@
         0.3203921669854734
       ],
       "annotation_kind": "text_region",
-      "field_key": "quantity",
+      "field_key": "tax_rate",
       "layout_key": "item_table",
       "row_id": "1",
       "transcript": "10 %",
@@ -207,7 +207,7 @@
       "source": "automatic_crop_proposal",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T16:48:21+00:00",
+      "updated_at": "2026-11-03T21:50:55+00:00",
       "history": [
         {
           "at": "2026-11-02T16:48:21+00:00",
@@ -223,6 +223,22 @@
             "row_id": "1",
             "transcript": "10",
             "field_status": "needs_review"
+          }
+        },
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              1363,
+              1070,
+              1447,
+              1123
+            ],
+            "field_key": "quantity",
+            "layout_key": "item_table",
+            "row_id": "1",
+            "transcript": "10 %",
+            "field_status": "verified"
           }
         }
       ]
@@ -545,5 +561,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T16:48:21+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

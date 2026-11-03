@@ -2729,7 +2729,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T09:41:09+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-2e441704-a8b5-4abe-b40d-a7a8b922e3c9",
+      "invoice_id": "HD_034",
+      "pdf": "data/pdfs/HD_034.pdf",
+      "pdf_sha256": "11e677c89b38dd81f00c7370be1e9f4d1130ab10eb01513f485b3b3a2e7b3968",
+      "page": 2,
+      "bbox_px": [
+        2140,
+        2508,
+        2325,
+        2548
+      ],
+      "page_size_px": [
+        2480,
+        3509
+      ],
+      "bbox_norm": [
+        0.8630745076465777,
+        0.7146042275856676,
+        0.9376071828843869,
+        0.7262153029979813
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "total_amount",
+      "layout_key": "totals",
+      "row_id": "",
+      "transcript": "1.090.460",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T09:41:09+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

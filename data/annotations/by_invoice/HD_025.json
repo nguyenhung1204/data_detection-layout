@@ -166,20 +166,20 @@
       "pdf_sha256": "3293fb66bc9e843f211943ec42b04665326238af88f425441b48d02984b9402d",
       "page": 1,
       "bbox_px": [
-        889,
-        2057,
-        1171,
-        2122
+        896,
+        2073,
+        1089,
+        2112
       ],
       "page_size_px": [
         2481,
         3508
       ],
       "bbox_norm": [
-        0.3583115142881905,
-        0.5863423556606269,
-        0.4719665119308686,
-        0.6048474775831623
+        0.3612592359919311,
+        0.5910078009001485,
+        0.43876598192594557,
+        0.6019294120035263
       ],
       "annotation_kind": "text_region",
       "field_key": "total_amount",
@@ -194,8 +194,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T14:28:16+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              889,
+              2057,
+              1171,
+              2122
+            ],
+            "field_key": "total_amount",
+            "layout_key": "totals",
+            "row_id": "",
+            "transcript": "23.499.000",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-16ca2f97-9a93-4d59-88ba-30e7c1b677fb",
@@ -540,5 +557,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T14:28:16+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

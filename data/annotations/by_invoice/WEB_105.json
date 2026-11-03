@@ -467,7 +467,45 @@
       "confidence": null,
       "updated_at": "2026-11-03T02:11:52+00:00",
       "history": []
+    },
+    {
+      "annotation_id": "region-5a592238-de22-402c-9dab-f08b26217cbd",
+      "invoice_id": "WEB_105",
+      "pdf": "data/pdfs/WEB_105.pdf",
+      "pdf_sha256": "1b4ae7e1d4169409f44683601c4e9e3bafe6e371bf5e6929fd04709dde46c01e",
+      "page": 1,
+      "bbox_px": [
+        771,
+        88,
+        1880,
+        160
+      ],
+      "page_size_px": [
+        2481,
+        3508
+      ],
+      "bbox_norm": [
+        0.3106458910805104,
+        0.025066303641287948,
+        0.7577549459130635,
+        0.045473672866531735
+      ],
+      "annotation_kind": "text_region",
+      "field_key": "seller_name",
+      "layout_key": "seller_block",
+      "row_id": "",
+      "transcript": "CÔNG TY TNHH CNC INDUSTRIES",
+      "transcript_status": "needs_review",
+      "recognition_status": "automatic",
+      "field_status": "verified",
+      "split": "train",
+      "assigned_to": "duy",
+      "source": "automatic_pdf_text_fix",
+      "source_crop_id": "",
+      "confidence": null,
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": []
     }
   ],
-  "updated_at": "2026-11-03T02:11:52+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

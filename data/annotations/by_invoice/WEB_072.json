@@ -14,20 +14,20 @@
       "pdf_sha256": "d4cb46b87b0fed49b1df8ff9880ff1c0541356c1039ec025f7cbe71ff07766ac",
       "page": 1,
       "bbox_px": [
-        355,
+        354,
         232,
-        2014,
-        278
+        1989,
+        283
       ],
       "page_size_px": [
         2480,
         1755
       ],
       "bbox_norm": [
-        0.14325028622253044,
-        0.13242791458185546,
-        0.8122875815492623,
-        0.15865178251922413
+        0.14268823498637737,
+        0.13208863232537857,
+        0.8019517114462972,
+        0.16104350632330017
       ],
       "annotation_kind": "text_region",
       "field_key": "seller_name",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T16:13:27+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              355,
+              232,
+              2014,
+              278
+            ],
+            "field_key": "seller_name",
+            "layout_key": "seller_block",
+            "row_id": "",
+            "transcript": "CHI NHÁNH TỔNG AN KHƯƠNG 2 - CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ HIỆP QUẾ",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-60142c0f-f0eb-40ae-ad02-bbe4e9721d75",
@@ -388,5 +405,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T16:13:27+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }

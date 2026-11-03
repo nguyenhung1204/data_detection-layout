@@ -14,20 +14,20 @@
       "pdf_sha256": "7ec279f0dc6e97a92ab713ea69a2c7c829464f1028ef6f1cf7ea371652c825f3",
       "page": 1,
       "bbox_px": [
-        2120,
-        176,
-        2370,
-        249
+        2126,
+        193,
+        2306,
+        234
       ],
       "page_size_px": [
         2481,
         3508
       ],
       "bbox_norm": [
-        0.8546320334981615,
-        0.05027178808313179,
-        0.9552043749268092,
-        0.07109004316477642
+        0.8570560873357145,
+        0.055031155342705036,
+        0.9294476049693908,
+        0.06674902401557138
       ],
       "annotation_kind": "text_region",
       "field_key": "invoice_number",
@@ -42,8 +42,25 @@
       "source": "manual",
       "source_crop_id": "",
       "confidence": null,
-      "updated_at": "2026-11-02T12:33:04+00:00",
-      "history": []
+      "updated_at": "2026-11-03T21:50:55+00:00",
+      "history": [
+        {
+          "at": "2026-11-03T21:50:55+00:00",
+          "snapshot": {
+            "bbox_px": [
+              2120,
+              176,
+              2370,
+              249
+            ],
+            "field_key": "invoice_number",
+            "layout_key": "invoice_header",
+            "row_id": "",
+            "transcript": "00000026",
+            "field_status": "verified"
+          }
+        }
+      ]
     },
     {
       "annotation_id": "region-6950bcfb-29d5-413b-8151-9a7e75cca9e6",
@@ -388,5 +405,5 @@
       "history": []
     }
   ],
-  "updated_at": "2026-11-02T12:33:04+00:00"
+  "updated_at": "2026-11-03T21:50:55+00:00"
 }
