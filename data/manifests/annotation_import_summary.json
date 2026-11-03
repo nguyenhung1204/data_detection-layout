@@ -1,0 +1,28 @@
+{
+  "active_policy": "Keep only Duy/Vân annotations with source=manual and non-empty field_key; omit legacy OCR candidates, automatic proposals, and unassigned manual regions.",
+  "source_zip_sha256": {
+    "duy": "72d6cd11dc1272c522ef18155e5427ab52cd7f9232c05f2f23e1818403b97653",
+    "van": "aefe8b934a07012ed363ecf170592f11f1c5e3018cf84a9a8a708b2ec7f10c18"
+  },
+  "invoice_count": 208,
+  "active_annotation_count": 2623,
+  "active_status_counts": {
+    "verified": 2621,
+    "needs_review": 2
+  },
+  "active_by_assignee": {
+    "duy": 519,
+    "van": 2104
+  },
+  "active_blank_transcript_count": 12,
+  "source_annotation_counts": {
+    "existing_ocr_review_candidate": 17961,
+    "manual": 2629,
+    "automatic_crop_proposal": 1560
+  },
+  "removed_from_active": {
+    "existing_ocr_review_candidate": 17961,
+    "automatic_crop_proposal": 1560,
+    "manual_without_field_key": 6
+  }
+}

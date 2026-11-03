@@ -7,6 +7,7 @@ import re
 import sys
 import tempfile
 import time
+import unicodedata
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -267,7 +268,7 @@ class Handler(BaseHTTPRequestHandler):
                     if assignee and row["assigned_to"] != assignee: continue
                     if q and q not in (row["invoice_id"] + " " + row["filename"] + " " + row.get("supplier", "")).casefold(): continue
                     doc = load_annotation(row["invoice_id"])
-                    anns = doc.get("annotations", [])
+                    anns = [a for a in doc.get("annotations", []) if a.get("source") != "existing_ocr_review_candidate"]
                     counts = {key: sum(1 for a in anns if a.get("field_status") == key) for key in STATUSES}
                     if status and counts.get(status, 0) == 0: continue
                     rows.append({**row, "annotation_count": len(anns), "counts": counts})
@@ -306,6 +307,7 @@ class Handler(BaseHTTPRequestHandler):
                 rows = []
                 for inv_id in INVOICES:
                     for item in load_annotation(inv_id).get("annotations", []):
+                        if item.get("source") == "existing_ocr_review_candidate": continue
                         haystack = " ".join(str(item.get(k, "")) for k in ("invoice_id", "pdf", "annotation_id", "field_key", "layout_key", "transcript", "row_id", "assigned_to")).casefold()
                         if not q or q in haystack:
                             rows.append({k: item.get(k) for k in ("annotation_id", "invoice_id", "pdf", "page", "bbox_px", "field_key", "layout_key", "row_id", "transcript", "field_status", "updated_at")})

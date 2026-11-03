@@ -1,7 +1,7 @@
 {
   "valid": true,
   "invoice_count": 208,
-  "annotation_count": 22150,
+  "annotation_count": 2623,
   "split_invoice_counts": {
     "val": 41,
     "train": 126,
@@ -12,26 +12,24 @@
     "van": 104
   },
   "annotation_status_counts": {
-    "needs_review": 17961,
-    "rejected": 119,
-    "verified": 4070
+    "verified": 2621,
+    "needs_review": 2
   },
   "field_counts": {
-    "unassigned": 17967,
-    "unit_price": 603,
-    "item_description": 614,
-    "seller_name": 192,
-    "tax_rate": 176,
-    "quantity": 613,
-    "unit": 609,
-    "invoice_date": 191,
-    "total_amount": 197,
-    "seller_tax_code": 189,
-    "line_total": 602,
-    "invoice_number": 197
+    "seller_name": 118,
+    "seller_tax_code": 125,
+    "invoice_date": 104,
+    "invoice_number": 112,
+    "total_amount": 125,
+    "item_description": 460,
+    "unit": 405,
+    "quantity": 360,
+    "unit_price": 342,
+    "tax_rate": 122,
+    "line_total": 350
   },
   "errors": [],
   "warnings": [
-    "Trường dòng hàng chưa có row_id: HD_034[158]"
+    "Trường dòng hàng chưa có row_id: HD_034[4]"
   ]
 }
